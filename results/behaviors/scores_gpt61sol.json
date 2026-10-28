@@ -1,0 +1,185 @@
+{
+ "executor": "Qwen/Qwen3.5-4B",
+ "proposer": "openai:gpt-6.1-sol",
+ "scores": {
+  "plain": {
+   "base": 0.9688,
+   "oracle": 0.9688,
+   "propose_8": 0.9844,
+   "propose_16": 0.9844,
+   "propose_32": 0.9844,
+   "propose_64": 0.9844,
+   "constant_8": 0.4844,
+   "constant_16": 0.5,
+   "constant_32": 0.5,
+   "constant_64": 0.4844
+  },
+  "flip_animal": {
+   "base": 0.25,
+   "oracle": 0.5156,
+   "propose_8": 0.5938,
+   "propose_16": 0.4844,
+   "propose_32": 0.8594,
+   "propose_64": 0.5938,
+   "constant_8": 0.7344,
+   "constant_16": 0.7344,
+   "constant_32": 0.7344,
+   "constant_64": 0.7344
+  },
+  "flip_food": {
+   "base": 0.2656,
+   "oracle": 0.5312,
+   "propose_8": 0.5469,
+   "propose_16": 0.5156,
+   "propose_32": 0.6875,
+   "propose_64": 0.6562,
+   "constant_8": 0.7656,
+   "constant_16": 0.7656,
+   "constant_32": 0.7656,
+   "constant_64": 0.7656
+  },
+  "flip_number": {
+   "base": 0.0312,
+   "oracle": 0.5156,
+   "propose_8": 0.9844,
+   "propose_16": 0.9844,
+   "propose_32": 0.9844,
+   "propose_64": 0.9844,
+   "constant_8": 0.4844,
+   "constant_16": 0.4844,
+   "constant_32": 0.5156,
+   "constant_64": 0.5156
+  },
+  "flip_question": {
+   "base": 0.1562,
+   "oracle": 0.6719,
+   "propose_8": 0.8594,
+   "propose_16": 0.7656,
+   "propose_32": 0.8594,
+   "propose_64": 0.8125,
+   "constant_8": 0.6406,
+   "constant_16": 0.6406,
+   "constant_32": 0.6406,
+   "constant_64": 0.6406
+  },
+  "neutral_animal": {
+   "base": 0.7812,
+   "oracle": 0.9531,
+   "propose_8": 0.8438,
+   "propose_16": 0.9375,
+   "propose_32": 0.9531,
+   "propose_64": 0.9219,
+   "constant_8": 0.4062,
+   "constant_16": 0.4062,
+   "constant_32": 0.4062,
+   "constant_64": 0.4062
+  },
+  "neutral_number": {
+   "base": 0.4844,
+   "oracle": 0.9844,
+   "propose_8": 0.7188,
+   "propose_16": 0.9844,
+   "propose_32": 0.9844,
+   "propose_64": 0.9844,
+   "constant_8": 0.5156,
+   "constant_16": 0.5156,
+   "constant_32": 0.5156,
+   "constant_64": 0.5156
+  },
+  "negative_question": {
+   "base": 0.7656,
+   "oracle": 1,
+   "propose_8": 1,
+   "propose_16": 1,
+   "propose_32": 1,
+   "propose_64": 1,
+   "constant_8": 0.75,
+   "constant_16": 0.75,
+   "constant_32": 0.75,
+   "constant_64": 0.75
+  },
+  "flip_animal_and_question": {
+   "base": 0.4375,
+   "oracle": 0.5781,
+   "propose_8": 0.7656,
+   "propose_16": 0.8594,
+   "propose_32": 0.9219,
+   "propose_64": 0.8906,
+   "constant_8": 0.5156,
+   "constant_16": 0.5156,
+   "constant_32": 0.4844,
+   "constant_64": 0.5156
+  },
+  "flip_food_or_number": {
+   "base": 0.0469,
+   "oracle": 0.6562,
+   "propose_8": 0.7188,
+   "propose_16": 0.9688,
+   "propose_32": 0.9688,
+   "propose_64": 0.9688,
+   "constant_8": 0.5312,
+   "constant_16": 0.5312,
+   "constant_32": 0.5312,
+   "constant_64": 0.5312
+  },
+  "neutral_person_and_number": {
+   "base": 0.5469,
+   "oracle": 0.8281,
+   "propose_8": 0.6875,
+   "propose_16": 0.9219,
+   "propose_32": 0.9219,
+   "propose_64": 0.9219,
+   "constant_8": 0.4531,
+   "constant_16": 0.4531,
+   "constant_32": 0.4531,
+   "constant_64": 0.4531
+  },
+  "negative_animal_or_food_statement": {
+   "base": 0.7344,
+   "oracle": 0.9062,
+   "propose_8": 0.6406,
+   "propose_16": 0.8281,
+   "propose_32": 0.8281,
+   "propose_64": 0.7344,
+   "constant_8": 0.6562,
+   "constant_16": 0.6562,
+   "constant_32": 0.6562,
+   "constant_64": 0.6562
+  },
+  "flip_unless_object": {
+   "base": 0.0156,
+   "oracle": 0.9844,
+   "propose_8": 0.9844,
+   "propose_16": 1,
+   "propose_32": 1,
+   "propose_64": 1,
+   "constant_8": 0.5,
+   "constant_16": 0.5,
+   "constant_32": 0.5,
+   "constant_64": 0.5
+  }
+ },
+ "parse": {
+  "no_marker": {
+   "propose_8": 1
+  },
+  "unparsed": {},
+  "total": {
+   "base": 832,
+   "oracle": 832,
+   "propose_16": 832,
+   "propose_32": 832,
+   "propose_64": 832,
+   "propose_8": 832
+  },
+  "rate": {
+   "base": 0.0,
+   "oracle": 0.0,
+   "propose_16": 0.0,
+   "propose_32": 0.0,
+   "propose_64": 0.0,
+   "propose_8": 0.0012
+  }
+ },
+ "n_test": 64
+}

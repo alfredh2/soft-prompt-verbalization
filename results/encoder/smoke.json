@@ -1,0 +1,39 @@
+{
+ "args": {
+  "data": "data/behaviors/library_qwen35_9b.json",
+  "lam": 1.0,
+  "steps": 400,
+  "batch": 12,
+  "queries": 3,
+  "micro": 48,
+  "sizes": [
+   32,
+   64,
+   128
+  ],
+  "lr": 0.0003,
+  "seed": 0,
+  "split_seed": 0,
+  "shuffle_ids": false,
+  "features": "carrier",
+  "only_named": true,
+  "agree_mask": 0.95,
+  "eval_every": 200,
+  "out": "results/encoder/smoke"
+ },
+ "history": [
+  {
+   "step": 200,
+   "train": 0.8711,
+   "held_random": null,
+   "held_comp": 0.4922
+  },
+  {
+   "step": 400,
+   "train": 0.8835,
+   "held_random": null,
+   "held_comp": 0.6016
+  }
+ ],
+ "seconds": 255
+}

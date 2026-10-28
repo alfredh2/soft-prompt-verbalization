@@ -1,0 +1,45 @@
+{
+  "records": 15336,
+  "functions": 1278,
+  "by_split": {
+    "heldout_composition": 2940,
+    "heldout_family": 288,
+    "heldout_param": 3024,
+    "train": 9084
+  },
+  "by_family": {
+    "absgt": 288,
+    "at_least": 48,
+    "bit_is_1": 72,
+    "bits_equal": 180,
+    "gt": 576,
+    "gt_and_mod": 2940,
+    "lt": 576,
+    "lt_and_mod": 2940,
+    "mod": 516,
+    "piecewise": 3600,
+    "range": 3600
+  },
+  "by_n_examples": {
+    "8": 5112,
+    "16": 5112,
+    "32": 5112
+  },
+  "mean_majority_label_fraction": 0.70487,
+  "args": {
+    "composition_stride": "2",
+    "example_sizes": "8,16,32",
+    "int_high": "30",
+    "int_low": "-30",
+    "max_majority_fraction": "0.9",
+    "max_per_family": "300",
+    "min_minority": "4",
+    "min_per_label": "2",
+    "n_bits": "6",
+    "n_holdout": "16",
+    "out": "data/discrete/discrete_functions.jsonl.gz",
+    "range_stride": "1",
+    "seed": "0",
+    "views": "4"
+  }
+}

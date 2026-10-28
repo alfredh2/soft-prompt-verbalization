@@ -1,0 +1,65 @@
+{
+ "args": {
+  "data": "data/behaviors/library_qwen35_9b.json",
+  "lam": 1.0,
+  "steps": 6000,
+  "batch": 24,
+  "queries": 3,
+  "micro": 48,
+  "sizes": [
+   32,
+   64,
+   128
+  ],
+  "lr": 0.0003,
+  "d": 768,
+  "layers": 3,
+  "seed": 0,
+  "split_seed": 0,
+  "shuffle_ids": false,
+  "features": "carrier",
+  "only_named": false,
+  "agree_mask": 0.95,
+  "eval_every": 1000,
+  "out": "results/encoder/big_lam1_s0"
+ },
+ "history": [
+  {
+   "step": 1000,
+   "train": 0.8158,
+   "held_random": 0.798,
+   "held_comp": 0.8073
+  },
+  {
+   "step": 2000,
+   "train": 0.8698,
+   "held_random": 0.8599,
+   "held_comp": 0.8542
+  },
+  {
+   "step": 3000,
+   "train": 0.8607,
+   "held_random": 0.8382,
+   "held_comp": 0.8568
+  },
+  {
+   "step": 4000,
+   "train": 0.8711,
+   "held_random": 0.8421,
+   "held_comp": 0.8307
+  },
+  {
+   "step": 5000,
+   "train": 0.8952,
+   "held_random": 0.8616,
+   "held_comp": 0.8073
+  },
+  {
+   "step": 6000,
+   "train": 0.8874,
+   "held_random": 0.856,
+   "held_comp": 0.8646
+  }
+ ],
+ "seconds": 7465
+}

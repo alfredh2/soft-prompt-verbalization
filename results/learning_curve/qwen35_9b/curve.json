@@ -1,0 +1,99 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "curve": {
+    "2": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.625,
+      "disagreement": 0.375,
+      "support": 0.9,
+      "held_out": 0.6263,
+      "probe": 0.5595,
+      "probe_unseen_mean": 5.15
+    },
+    "4": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6085,
+      "disagreement": 0.3915,
+      "support": 0.775,
+      "held_out": 0.5866,
+      "probe": 0.5103,
+      "probe_unseen_mean": 5.0
+    },
+    "8": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6449,
+      "disagreement": 0.3551,
+      "support": 0.7812,
+      "held_out": 0.6239,
+      "probe": 0.5195,
+      "probe_unseen_mean": 4.65
+    },
+    "16": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.05,
+      "domain_acc": 0.668,
+      "disagreement": 0.332,
+      "support": 0.7,
+      "held_out": 0.6458,
+      "probe": 0.5465,
+      "probe_unseen_mean": 3.85
+    },
+    "24": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.05,
+      "domain_acc": 0.6971,
+      "disagreement": 0.3029,
+      "support": 0.7146,
+      "held_out": 0.6763,
+      "probe": 0.5633,
+      "probe_unseen_mean": 3.25
+    },
+    "32": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.05,
+      "domain_acc": 0.6389,
+      "disagreement": 0.3611,
+      "support": 0.6594,
+      "held_out": 0.6138,
+      "probe": 0.4687,
+      "probe_unseen_mean": 2.65
+    },
+    "40": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.05,
+      "domain_acc": 0.634,
+      "disagreement": 0.366,
+      "support": 0.635,
+      "held_out": 0.6294,
+      "probe": 0.4899,
+      "probe_unseen_mean": 1.95
+    },
+    "45": {
+      "n": 19,
+      "ran": 19,
+      "exact_recovery": 0.0526,
+      "domain_acc": 0.6251,
+      "disagreement": 0.3749,
+      "support": 0.6316,
+      "held_out": 0.6086,
+      "probe": 0.442,
+      "probe_unseen_mean": 1.3684
+    }
+  },
+  "usage": {
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

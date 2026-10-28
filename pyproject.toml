@@ -1,0 +1,14 @@
+[project]
+name = "soft-prompt-verbalization"
+version = "0.1.0"
+description = "Can a soft prompt that imitates a function be translated into an English description?"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "torch>=2.4",
+    "transformers>=4.51",   # >=4.51 for Qwen3-family chat templates
+    "accelerate>=0.30",
+]
+
+[tool.setuptools]
+packages = ["src"]

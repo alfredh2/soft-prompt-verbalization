@@ -1,0 +1,200 @@
+{
+  "subset_id": "f62dbf3345092817",
+  "n_records": 220,
+  "proposer": "Qwen/Qwen3.5-9B",
+  "executor": "Qwen/Qwen3.5-4B",
+  "args": {
+    "batch_size": "16",
+    "dataset": "data/discrete/discrete_functions.jsonl.gz",
+    "executor": "Qwen/Qwen3.5-4B",
+    "limit": "0",
+    "n": "220",
+    "out": "results/oneshot",
+    "propose_batch_size": "8",
+    "proposer": "Qwen/Qwen3.5-9B",
+    "seed": "0",
+    "skip_propose": "False",
+    "tag": "qwen35_9b"
+  },
+  "overall": {
+    "bare": 0.4884135472370767,
+    "oracle": 0.9963068181818182,
+    "baseline": 0.7494318181818181,
+    "constant": 0.6724466636363634,
+    "normalized": 0.5139234675411561,
+    "n": 220
+  },
+  "by_split": {
+    "heldout_composition": {
+      "bare": 0.5572916666666666,
+      "oracle": 0.9947916666666666,
+      "baseline": 0.8697916666666666,
+      "constant": 0.8019125833333333,
+      "normalized": 0.7142857142857143,
+      "n": 12
+    },
+    "heldout_family": {
+      "bare": 0.5364583333333334,
+      "oracle": 1.0,
+      "baseline": 0.6614583333333334,
+      "constant": 0.65847,
+      "normalized": 0.26966292134831465,
+      "n": 12
+    },
+    "heldout_param": {
+      "bare": 0.48673004555357496,
+      "oracle": 0.9987373737373737,
+      "baseline": 0.7463978015448604,
+      "constant": 0.6587804141414142,
+      "normalized": 0.5071563270634882,
+      "n": 99
+    },
+    "train": {
+      "bare": 0.47566707095209226,
+      "oracle": 0.9935567010309279,
+      "baseline": 0.7485218314129775,
+      "constant": 0.6721073608247425,
+      "normalized": 0.5268588992974236,
+      "n": 97
+    }
+  },
+  "by_family": {
+    "absgt": {
+      "bare": 0.5364583333333334,
+      "oracle": 1.0,
+      "baseline": 0.6614583333333334,
+      "constant": 0.65847,
+      "normalized": 0.26966292134831465,
+      "n": 12
+    },
+    "at_least": {
+      "bare": 0.4609375,
+      "oracle": 1.0,
+      "baseline": 0.8046875,
+      "constant": 0.705078125,
+      "normalized": 0.6376811594202898,
+      "n": 24
+    },
+    "bit_is_1": {
+      "bare": 0.4869791666666667,
+      "oracle": 0.9817708333333334,
+      "baseline": 0.59375,
+      "constant": 0.5,
+      "normalized": 0.21578947368421048,
+      "n": 24
+    },
+    "bits_equal": {
+      "bare": 0.546875,
+      "oracle": 0.9947916666666666,
+      "baseline": 0.4791666666666667,
+      "constant": 0.5,
+      "normalized": -0.15116279069767438,
+      "n": 24
+    },
+    "gt": {
+      "bare": 0.6145833333333334,
+      "oracle": 1.0,
+      "baseline": 0.8880208333333334,
+      "constant": 0.6639344166666666,
+      "normalized": 0.7094594594594595,
+      "n": 24
+    },
+    "gt_and_mod": {
+      "bare": 0.5572916666666666,
+      "oracle": 0.9947916666666666,
+      "baseline": 0.8697916666666666,
+      "constant": 0.8019125833333333,
+      "normalized": 0.7142857142857143,
+      "n": 12
+    },
+    "lt": {
+      "bare": 0.4036458333333333,
+      "oracle": 1.0,
+      "baseline": 0.8515625,
+      "constant": 0.7131146250000002,
+      "normalized": 0.7510917030567685,
+      "n": 24
+    },
+    "lt_and_mod": {
+      "bare": 0.45170454545454547,
+      "oracle": 0.9943181818181818,
+      "baseline": 0.8352272727272727,
+      "constant": 0.8211624545454547,
+      "normalized": 0.7068062827225132,
+      "n": 22
+    },
+    "mod": {
+      "bare": 0.4652777777777778,
+      "oracle": 0.9965277777777778,
+      "baseline": 0.8159722222222222,
+      "constant": 0.8160291666666667,
+      "normalized": 0.6601307189542484,
+      "n": 18
+    },
+    "piecewise": {
+      "bare": 0.3236655773420478,
+      "oracle": 1.0,
+      "baseline": 0.7430555555555556,
+      "constant": 0.5856102222222223,
+      "normalized": 0.6200926112341455,
+      "n": 18
+    },
+    "range": {
+      "bare": 0.5486111111111112,
+      "oracle": 1.0,
+      "baseline": 0.7361111111111112,
+      "constant": 0.730418888888889,
+      "normalized": 0.4153846153846154,
+      "n": 18
+    }
+  },
+  "by_n_examples": {
+    "16": {
+      "bare": 0.49202591995702394,
+      "oracle": 0.9965753424657534,
+      "baseline": 0.7717062852538276,
+      "constant": 0.6676047123287673,
+      "normalized": 0.5543170853435369,
+      "n": 73
+    },
+    "32": {
+      "bare": 0.49858984689766317,
+      "oracle": 0.9965753424657534,
+      "baseline": 0.765713134568896,
+      "constant": 0.6824261506849314,
+      "normalized": 0.5364077669902911,
+      "n": 73
+    },
+    "8": {
+      "bare": 0.47481120826709056,
+      "oracle": 0.995777027027027,
+      "baseline": 0.7113970588235293,
+      "constant": 0.6673785540540544,
+      "normalized": 0.4541293152775128,
+      "n": 74
+    }
+  },
+  "parse_diagnostics": {
+    "no_marker": {
+      "bare": 875,
+      "baseline": 3,
+      "oracle": 5
+    },
+    "unparsed": {},
+    "total": {
+      "bare": 3526,
+      "baseline": 3526,
+      "oracle": 3526
+    },
+    "rate": {
+      "bare": 0.2482,
+      "baseline": 0.0009,
+      "oracle": 0.0014
+    }
+  },
+  "propose_stats": {
+    "n": 220,
+    "missing_rule_marker": 0,
+    "missing_rate": 0.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "support": "teaching",
+  "grammar": true,
+  "order": "sorted",
+  "curve": {
+    "16": {
+      "n": 16,
+      "ran": 16,
+      "exact_recovery": 0.0625,
+      "domain_acc": 0.7016,
+      "disagreement": 0.2984,
+      "support": 0.7227,
+      "held_out": 0.7122,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "function_id": "absgt_c=11",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "absgt",
+    "params": {
+      "c": 11
+    },
+    "split": "heldout_family",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 11, otherwise output 0.",
+    "expression": "1 if abs(x) > 11 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.622951,
+    "z_norm": 9.89263916015625,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 3,
+    "exact": false,
+    "domain_acc": 0.9508
+  },
+  {
+    "function_id": "absgt_c=7",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "absgt",
+    "params": {
+      "c": 7
+    },
+    "split": "heldout_family",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 7, otherwise output 0.",
+    "expression": "1 if abs(x) > 7 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.754098,
+    "z_norm": 10.157946586608887,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 3,
+    "exact": false,
+    "domain_acc": 0.9508
+  },
+  {
+    "function_id": "bit_is_1_i=1",
+    "view": 2,
+    "seed_idx": 0,
+    "family": "bit_is_1",
+    "params": {
+      "i": 1
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if bit 1 of x (counting from 0 at the leftmost bit) is 1, otherwise output 0.",
+    "expression": "1 if x[1] == '1' else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.5,
+    "z_norm": 10.243247985839844,
+    "train_acc": 1.0,
+    "eval_acc": 1.0,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 0,
+    "exact": true,
+    "domain_acc": 1.0
+  },
+  {
+    "function_id": "bits_equal_i=0_j=3",
+    "view": 2,
+    "seed_idx": 0,
+    "family": "bits_equal",
+    "params": {
+      "i": 0,
+      "j": 3
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output 1 if bits 0 and 3 of x (counting from 0 at the leftmost bit) are equal, otherwise output 0.",
+    "expression": "1 if x[0] == x[3] else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.5,
+    "z_norm": 9.747897148132324,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 2,
+    "exact": false,
+    "domain_acc": 0.9688
+  },
+  {
+    "function_id": "bits_equal_i=3_j=4",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "bits_equal",
+    "params": {
+      "i": 3,
+      "j": 4
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if bits 3 and 4 of x (counting from 0 at the leftmost bit) are equal, otherwise output 0.",
+    "expression": "1 if x[3] == x[4] else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.5,
+    "z_norm": 11.146141052246094,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 12,
+    "exact": false,
+    "domain_acc": 0.8125
+  },
+  {
+    "function_id": "gt_and_mod_c=-21_k=3_r=1",
+    "view": 1,
+    "seed_idx": 0,
+    "family": "gt_and_mod",
+    "params": {
+      "c": -21,
+      "k": 3,
+      "r": 1
+    },
+    "split": "heldout_composition",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -21 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if x > -21 and x % 3 == 1 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.721311,
+    "z_norm": 11.584794998168945,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 16,
+    "exact": false,
+    "domain_acc": 0.7377
+  },
+  {
+    "function_id": "gt_and_mod_c=3_k=3_r=1",
+    "view": 1,
+    "seed_idx": 0,
+    "family": "gt_and_mod",
+    "params": {
+      "c": 3,
+      "k": 3,
+      "r": 1
+    },
+    "split": "heldout_composition",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 3 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if x > 3 and x % 3 == 1 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.852459,
+    "z_norm": 11.150712966918945,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 6,
+    "exact": false,
+    "domain_acc": 0.9016
+  },
+  {
+    "function_id": "gt_c=-20",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "gt",
+    "params": {
+      "c": -20
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -20, otherwise output 0.",
+    "expression": "1 if x > -20 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.819672,
+    "z_norm": 12.562433242797852,
+    "train_acc": 1.0,
+    "eval_acc": 1.0,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 0,
+    "exact": true,
+    "domain_acc": 1.0
+  },
+  {
+    "function_id": "gt_c=17",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "gt",
+    "params": {
+      "c": 17
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 17, otherwise output 0.",
+    "expression": "1 if x > 17 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.786885,
+    "z_norm": 9.366995811462402,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 2,
+    "exact": false,
+    "domain_acc": 0.9672
+  },
+  {
+    "function_id": "lt_and_mod_c=-17_k=2_r=0",
+    "view": 2,
+    "seed_idx": 0,
+    "family": "lt_and_mod",
+    "params": {
+      "c": -17,
+      "k": 2,
+      "r": 0
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than -17 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if x < -17 and x % 2 == 0 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.885246,
+    "z_norm": 11.740996360778809,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 3,
+    "exact": false,
+    "domain_acc": 0.9508
+  },
+  {
+    "function_id": "lt_and_mod_c=11_k=4_r=0",
+    "view": 3,
+    "seed_idx": 0,
+    "family": "lt_and_mod",
+    "params": {
+      "c": 11,
+      "k": 4,
+      "r": 0
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 11 and x modulo 4 equals 0, otherwise output 0.",
+    "expression": "1 if x < 11 and x % 4 == 0 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.836066,
+    "z_norm": 9.112813949584961,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 3,
+    "exact": false,
+    "domain_acc": 0.9508
+  },
+  {
+    "function_id": "lt_and_mod_c=1_k=2_r=0",
+    "view": 2,
+    "seed_idx": 0,
+    "family": "lt_and_mod",
+    "params": {
+      "c": 1,
+      "k": 2,
+      "r": 0
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 1 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if x < 1 and x % 2 == 0 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737705,
+    "z_norm": 10.280736923217773,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 4,
+    "exact": false,
+    "domain_acc": 0.9344
+  },
+  {
+    "function_id": "lt_c=-1",
+    "view": 1,
+    "seed_idx": 0,
+    "family": "lt",
+    "params": {
+      "c": -1
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than -1, otherwise output 0.",
+    "expression": "1 if x < -1 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.52459,
+    "z_norm": 11.51485538482666,
+    "train_acc": 1.0,
+    "eval_acc": 1.0,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 0,
+    "exact": true,
+    "domain_acc": 1.0
+  },
+  {
+    "function_id": "lt_c=-3",
+    "view": 2,
+    "seed_idx": 0,
+    "family": "lt",
+    "params": {
+      "c": -3
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than -3, otherwise output 0.",
+    "expression": "1 if x < -3 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.557377,
+    "z_norm": 9.339632034301758,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 2,
+    "exact": false,
+    "domain_acc": 0.9672
+  },
+  {
+    "function_id": "lt_c=19",
+    "view": 1,
+    "seed_idx": 0,
+    "family": "lt",
+    "params": {
+      "c": 19
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 19, otherwise output 0.",
+    "expression": "1 if x < 19 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803279,
+    "z_norm": 9.785454750061035,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 2,
+    "exact": false,
+    "domain_acc": 0.9672
+  },
+  {
+    "function_id": "mod_k=3_r=1",
+    "view": 3,
+    "seed_idx": 0,
+    "family": "mod",
+    "params": {
+      "k": 3,
+      "r": 1
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if x % 3 == 1 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.672131,
+    "z_norm": 12.6146240234375,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 9,
+    "exact": false,
+    "domain_acc": 0.8525
+  },
+  {
+    "function_id": "mod_k=7_r=6",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "mod",
+    "params": {
+      "k": 7,
+      "r": 6
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 7 equals 6, otherwise output 0.",
+    "expression": "1 if x % 7 == 6 else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.852459,
+    "z_norm": 12.086965560913086,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 8,
+    "exact": false,
+    "domain_acc": 0.8689
+  },
+  {
+    "function_id": "piecewise_a=-16_b=21",
+    "view": 3,
+    "seed_idx": 0,
+    "family": "piecewise",
+    "params": {
+      "a": -16,
+      "b": 21
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output A if x is less than -16, B if x is less than 21, otherwise C.",
+    "expression": "'A' if x < -16 else ('B' if x < 21 else 'C')",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "majority_label_fraction": 0.606557,
+    "z_norm": 10.024229049682617,
+    "train_acc": 1.0,
+    "eval_acc": 0.8235294117647058,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 5,
+    "exact": false,
+    "domain_acc": 0.918
+  },
+  {
+    "function_id": "piecewise_a=-2_b=4",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "piecewise",
+    "params": {
+      "a": -2,
+      "b": 4
+    },
+    "split": "heldout_param",
+    "n_examples": 32,
+    "description": "Output A if x is less than -2, B if x is less than 4, otherwise C.",
+    "expression": "'A' if x < -2 else ('B' if x < 4 else 'C')",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "majority_label_fraction": 0.459016,
+    "z_norm": 9.687946319580078,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 2,
+    "exact": false,
+    "domain_acc": 0.9672
+  },
+  {
+    "function_id": "piecewise_a=5_b=16",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "piecewise",
+    "params": {
+      "a": 5,
+      "b": 16
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output A if x is less than 5, B if x is less than 16, otherwise C.",
+    "expression": "'A' if x < 5 else ('B' if x < 16 else 'C')",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "majority_label_fraction": 0.57377,
+    "z_norm": 9.445188522338867,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 3,
+    "exact": false,
+    "domain_acc": 0.9508
+  }
+]

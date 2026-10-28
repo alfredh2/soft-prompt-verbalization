@@ -1,0 +1,8630 @@
+[
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.441703796386719,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 105,
+    "exact": false,
+    "domain_acc": 0.6512
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 9.517330169677734,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 126,
+    "exact": false,
+    "domain_acc": 0.5814
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 9.795209884643555,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 61,
+    "exact": false,
+    "domain_acc": 0.7973
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 9.774547576904297,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 108,
+    "exact": false,
+    "domain_acc": 0.6412
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 9.256326675415039,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 87,
+    "exact": false,
+    "domain_acc": 0.711
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 9.730796813964844,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 135,
+    "exact": false,
+    "domain_acc": 0.5515
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 10.259710311889648,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 130,
+    "exact": false,
+    "domain_acc": 0.5681
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 10.126690864562988,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 133,
+    "exact": false,
+    "domain_acc": 0.5581
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 10.337684631347656,
+    "train_acc": 1.0,
+    "eval_acc": 0.1875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 199,
+    "exact": false,
+    "domain_acc": 0.3389
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 10.443696975708008,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 137,
+    "exact": false,
+    "domain_acc": 0.5449
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 9.878255844116211,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 65,
+    "exact": false,
+    "domain_acc": 0.7841
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 9.61298942565918,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 148,
+    "exact": false,
+    "domain_acc": 0.5083
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 10.21973705291748,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 148,
+    "exact": false,
+    "domain_acc": 0.5083
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 11.7529296875,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 62,
+    "exact": false,
+    "domain_acc": 0.794
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 11.906513214111328,
+    "train_acc": 1.0,
+    "eval_acc": 0.5,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 154,
+    "exact": false,
+    "domain_acc": 0.4884
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 10.598554611206055,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 45,
+    "exact": false,
+    "domain_acc": 0.8505
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 9.639260292053223,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 96,
+    "exact": false,
+    "domain_acc": 0.6811
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 9.41702651977539,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 44,
+    "exact": false,
+    "domain_acc": 0.8538
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 10.539856910705566,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 44,
+    "exact": false,
+    "domain_acc": 0.8538
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 10.057205200195312,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 116,
+    "exact": false,
+    "domain_acc": 0.6146
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 11.801241874694824,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 129,
+    "exact": false,
+    "domain_acc": 0.5714
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 10.901759147644043,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 143,
+    "exact": false,
+    "domain_acc": 0.5249
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 10.462008476257324,
+    "train_acc": 1.0,
+    "eval_acc": 0.5208333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 132,
+    "exact": false,
+    "domain_acc": 0.5615
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.05373477935791,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 87,
+    "exact": false,
+    "domain_acc": 0.711
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 9.37477970123291,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 50,
+    "exact": false,
+    "domain_acc": 0.8339
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 9.280994415283203,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 119,
+    "exact": false,
+    "domain_acc": 0.6047
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 11.31513500213623,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 79,
+    "exact": false,
+    "domain_acc": 0.7375
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.55729866027832,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 88,
+    "exact": false,
+    "domain_acc": 0.7076
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 9.685018539428711,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 58,
+    "exact": false,
+    "domain_acc": 0.8073
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 10.256218910217285,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 75,
+    "exact": false,
+    "domain_acc": 0.7508
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 10.561746597290039,
+    "train_acc": 1.0,
+    "eval_acc": 0.20833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 221,
+    "exact": false,
+    "domain_acc": 0.2658
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 9.774706840515137,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 92,
+    "exact": false,
+    "domain_acc": 0.6944
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 9.734978675842285,
+    "train_acc": 1.0,
+    "eval_acc": 0.3958333333333333,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 147,
+    "exact": false,
+    "domain_acc": 0.5116
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 10.09691047668457,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 77,
+    "exact": false,
+    "domain_acc": 0.7442
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 10.129560470581055,
+    "train_acc": 1.0,
+    "eval_acc": 0.4583333333333333,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 148,
+    "exact": false,
+    "domain_acc": 0.5083
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 11.359800338745117,
+    "train_acc": 1.0,
+    "eval_acc": 0.5416666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 147,
+    "exact": false,
+    "domain_acc": 0.5116
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 9.43297290802002,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 121,
+    "exact": false,
+    "domain_acc": 0.598
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.496564865112305,
+    "train_acc": 1.0,
+    "eval_acc": 0.5416666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 113,
+    "exact": false,
+    "domain_acc": 0.6246
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 11.384734153747559,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 92,
+    "exact": false,
+    "domain_acc": 0.6944
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 8,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.067004203796387,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 75,
+    "exact": false,
+    "domain_acc": 0.7508
+  },
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 12.845516204833984,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 115,
+    "exact": false,
+    "domain_acc": 0.6179
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 9.523199081420898,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 117,
+    "exact": false,
+    "domain_acc": 0.6113
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 12.099980354309082,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 62,
+    "exact": false,
+    "domain_acc": 0.794
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 9.90114974975586,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 43,
+    "exact": false,
+    "domain_acc": 0.8571
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 11.37315559387207,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 84,
+    "exact": false,
+    "domain_acc": 0.7209
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 9.555694580078125,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 141,
+    "exact": false,
+    "domain_acc": 0.5316
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 12.410720825195312,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 28,
+    "exact": false,
+    "domain_acc": 0.907
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 11.336553573608398,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 124,
+    "exact": false,
+    "domain_acc": 0.588
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 10.834521293640137,
+    "train_acc": 1.0,
+    "eval_acc": 0.4166666666666667,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 176,
+    "exact": false,
+    "domain_acc": 0.4153
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 9.623283386230469,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 55,
+    "exact": false,
+    "domain_acc": 0.8173
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 9.98013973236084,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 68,
+    "exact": false,
+    "domain_acc": 0.7741
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 9.808618545532227,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 126,
+    "exact": false,
+    "domain_acc": 0.5814
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 10.346036911010742,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 31,
+    "exact": false,
+    "domain_acc": 0.897
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 12.56798267364502,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 67,
+    "exact": false,
+    "domain_acc": 0.7774
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 10.344084739685059,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 67,
+    "exact": false,
+    "domain_acc": 0.7774
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 10.062583923339844,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 105,
+    "exact": false,
+    "domain_acc": 0.6512
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 11.391717910766602,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 109,
+    "exact": false,
+    "domain_acc": 0.6379
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 9.407337188720703,
+    "train_acc": 0.9166666666666666,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 38,
+    "exact": false,
+    "domain_acc": 0.8738
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 9.964908599853516,
+    "train_acc": 0.75,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 28,
+    "exact": false,
+    "domain_acc": 0.907
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 10.963617324829102,
+    "train_acc": 1.0,
+    "eval_acc": 0.5,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 146,
+    "exact": false,
+    "domain_acc": 0.515
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 9.282930374145508,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 115,
+    "exact": false,
+    "domain_acc": 0.6179
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 10.284692764282227,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 148,
+    "exact": false,
+    "domain_acc": 0.5083
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.149757385253906,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 114,
+    "exact": false,
+    "domain_acc": 0.6213
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 10.946586608886719,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 100,
+    "exact": false,
+    "domain_acc": 0.6678
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 12.3616943359375,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 9.52008056640625,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 112,
+    "exact": false,
+    "domain_acc": 0.6279
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 14.026423454284668,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 72,
+    "exact": false,
+    "domain_acc": 0.7608
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.583248138427734,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 34,
+    "exact": false,
+    "domain_acc": 0.887
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 9.551279067993164,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 42,
+    "exact": false,
+    "domain_acc": 0.8605
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 12.447897911071777,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 64,
+    "exact": false,
+    "domain_acc": 0.7874
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 10.68049430847168,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 48,
+    "exact": false,
+    "domain_acc": 0.8405
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 9.587957382202148,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 89,
+    "exact": false,
+    "domain_acc": 0.7043
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 10.796197891235352,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 23,
+    "exact": false,
+    "domain_acc": 0.9236
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 10.582282066345215,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 73,
+    "exact": false,
+    "domain_acc": 0.7575
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 11.559223175048828,
+    "train_acc": 1.0,
+    "eval_acc": 0.4375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 140,
+    "exact": false,
+    "domain_acc": 0.5349
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 9.987552642822266,
+    "train_acc": 1.0,
+    "eval_acc": 0.4375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 143,
+    "exact": false,
+    "domain_acc": 0.5249
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 10.332263946533203,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 106,
+    "exact": false,
+    "domain_acc": 0.6478
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 13.770710945129395,
+    "train_acc": 0.5833333333333334,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 136,
+    "exact": false,
+    "domain_acc": 0.5482
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 11.383501052856445,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 86,
+    "exact": false,
+    "domain_acc": 0.7143
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.377776145935059,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 78,
+    "exact": false,
+    "domain_acc": 0.7409
+  },
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.436939239501953,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 69,
+    "exact": false,
+    "domain_acc": 0.7708
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 11.782496452331543,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 96,
+    "exact": false,
+    "domain_acc": 0.6811
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 10.302366256713867,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 48,
+    "exact": false,
+    "domain_acc": 0.8405
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 10.247501373291016,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 43,
+    "exact": false,
+    "domain_acc": 0.8571
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 11.832870483398438,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 61,
+    "exact": false,
+    "domain_acc": 0.7973
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 11.572515487670898,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 75,
+    "exact": false,
+    "domain_acc": 0.7508
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 12.115142822265625,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 27,
+    "exact": false,
+    "domain_acc": 0.9103
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 11.278326034545898,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 127,
+    "exact": false,
+    "domain_acc": 0.5781
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 13.05770492553711,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 123,
+    "exact": false,
+    "domain_acc": 0.5914
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 9.893407821655273,
+    "train_acc": 0.875,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 106,
+    "exact": false,
+    "domain_acc": 0.6478
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 10.808797836303711,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 68,
+    "exact": false,
+    "domain_acc": 0.7741
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 10.60853385925293,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 82,
+    "exact": false,
+    "domain_acc": 0.7276
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 10.400811195373535,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 29,
+    "exact": false,
+    "domain_acc": 0.9037
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 13.209354400634766,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 54,
+    "exact": false,
+    "domain_acc": 0.8206
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 9.692641258239746,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 56,
+    "exact": false,
+    "domain_acc": 0.814
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 9.868915557861328,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 31,
+    "exact": false,
+    "domain_acc": 0.897
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 10.621342658996582,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 88,
+    "exact": false,
+    "domain_acc": 0.7076
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 9.73000717163086,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 22,
+    "exact": false,
+    "domain_acc": 0.9269
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 9.546769142150879,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 49,
+    "exact": false,
+    "domain_acc": 0.8372
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 9.17669677734375,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 113,
+    "exact": false,
+    "domain_acc": 0.6246
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 9.451223373413086,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 105,
+    "exact": false,
+    "domain_acc": 0.6512
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 11.0230073928833,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 136,
+    "exact": false,
+    "domain_acc": 0.5482
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.770078659057617,
+    "train_acc": 1.0,
+    "eval_acc": 0.5208333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 131,
+    "exact": false,
+    "domain_acc": 0.5648
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.80339241027832,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 106,
+    "exact": false,
+    "domain_acc": 0.6478
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 10.869797706604004,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 11.46870231628418,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 100,
+    "exact": false,
+    "domain_acc": 0.6678
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 10.92455005645752,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 59,
+    "exact": false,
+    "domain_acc": 0.804
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 10.442740440368652,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 59,
+    "exact": false,
+    "domain_acc": 0.804
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 9.895362854003906,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 38,
+    "exact": false,
+    "domain_acc": 0.8738
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 10.549915313720703,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 67,
+    "exact": false,
+    "domain_acc": 0.7774
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 9.755393981933594,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 73,
+    "exact": false,
+    "domain_acc": 0.7575
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 10.310195922851562,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 31,
+    "exact": false,
+    "domain_acc": 0.897
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 10.212736129760742,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 21,
+    "exact": false,
+    "domain_acc": 0.9302
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 11.521827697753906,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 49,
+    "exact": false,
+    "domain_acc": 0.8372
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 10.614130020141602,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 107,
+    "exact": false,
+    "domain_acc": 0.6445
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 11.338760375976562,
+    "train_acc": 1.0,
+    "eval_acc": 0.5,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 154,
+    "exact": false,
+    "domain_acc": 0.4884
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 10.230314254760742,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 121,
+    "exact": false,
+    "domain_acc": 0.598
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 10.21441650390625,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 108,
+    "exact": false,
+    "domain_acc": 0.6412
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.806690216064453,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 92,
+    "exact": false,
+    "domain_acc": 0.6944
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 11.057515144348145,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 72,
+    "exact": false,
+    "domain_acc": 0.7608
+  },
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 11.03441047668457,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 68,
+    "exact": false,
+    "domain_acc": 0.7741
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 11.170145034790039,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 83,
+    "exact": false,
+    "domain_acc": 0.7243
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 10.82711410522461,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 61,
+    "exact": false,
+    "domain_acc": 0.7973
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 12.345331192016602,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 33,
+    "exact": false,
+    "domain_acc": 0.8904
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 11.300548553466797,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 51,
+    "exact": false,
+    "domain_acc": 0.8306
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 10.210542678833008,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 47,
+    "exact": false,
+    "domain_acc": 0.8439
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 10.334403038024902,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 26,
+    "exact": false,
+    "domain_acc": 0.9136
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 11.55394172668457,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 115,
+    "exact": false,
+    "domain_acc": 0.6179
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 13.398324966430664,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 75,
+    "exact": false,
+    "domain_acc": 0.7508
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 11.509439468383789,
+    "train_acc": 1.0,
+    "eval_acc": 0.5416666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 104,
+    "exact": false,
+    "domain_acc": 0.6545
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 10.902644157409668,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 42,
+    "exact": false,
+    "domain_acc": 0.8605
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 12.234448432922363,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 65,
+    "exact": false,
+    "domain_acc": 0.7841
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 11.00759506225586,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 7,
+    "exact": false,
+    "domain_acc": 0.9767
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 11.649540901184082,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 49,
+    "exact": false,
+    "domain_acc": 0.8372
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 10.06265640258789,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 74,
+    "exact": false,
+    "domain_acc": 0.7542
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 10.793557167053223,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 22,
+    "exact": false,
+    "domain_acc": 0.9269
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 11.65980339050293,
+    "train_acc": 0.90625,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 41,
+    "exact": false,
+    "domain_acc": 0.8638
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 9.503969192504883,
+    "train_acc": 1.0,
+    "eval_acc": 0.9166666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 16,
+    "exact": false,
+    "domain_acc": 0.9468
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 10.655450820922852,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 26,
+    "exact": false,
+    "domain_acc": 0.9136
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 10.67746353149414,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 89,
+    "exact": false,
+    "domain_acc": 0.7043
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 10.747322082519531,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 72,
+    "exact": false,
+    "domain_acc": 0.7608
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 9.97531509399414,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 117,
+    "exact": false,
+    "domain_acc": 0.6113
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 11.774859428405762,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 70,
+    "exact": false,
+    "domain_acc": 0.7674
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 10.86548137664795,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 112,
+    "exact": false,
+    "domain_acc": 0.6279
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 11.601458549499512,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 39,
+    "exact": false,
+    "domain_acc": 0.8704
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 12.510107040405273,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 11.838972091674805,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 62,
+    "exact": false,
+    "domain_acc": 0.794
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 10.937030792236328,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 41,
+    "exact": false,
+    "domain_acc": 0.8638
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 12.076627731323242,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 27,
+    "exact": false,
+    "domain_acc": 0.9103
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 9.615236282348633,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 35,
+    "exact": false,
+    "domain_acc": 0.8837
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 11.517387390136719,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 46,
+    "exact": false,
+    "domain_acc": 0.8472
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 11.064760208129883,
+    "train_acc": 1.0,
+    "eval_acc": 1.0,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 11,
+    "exact": false,
+    "domain_acc": 0.9635
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 10.485912322998047,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 15,
+    "exact": false,
+    "domain_acc": 0.9502
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 10.556406021118164,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 32,
+    "exact": false,
+    "domain_acc": 0.8937
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 11.86768627166748,
+    "train_acc": 1.0,
+    "eval_acc": 0.5416666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 126,
+    "exact": false,
+    "domain_acc": 0.5814
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 11.682629585266113,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 114,
+    "exact": false,
+    "domain_acc": 0.6213
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 11.80531120300293,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 107,
+    "exact": false,
+    "domain_acc": 0.6445
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 11.796880722045898,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 139,
+    "exact": false,
+    "domain_acc": 0.5382
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 11.896492004394531,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 73,
+    "exact": false,
+    "domain_acc": 0.7575
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 0,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 32,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.849831581115723,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 71,
+    "exact": false,
+    "domain_acc": 0.7641
+  },
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 8.979302406311035,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 126,
+    "exact": false,
+    "domain_acc": 0.5814
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 10.882637023925781,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 110,
+    "exact": false,
+    "domain_acc": 0.6346
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 9.625959396362305,
+    "train_acc": 1.0,
+    "eval_acc": 0.9583333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 24,
+    "exact": false,
+    "domain_acc": 0.9203
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 11.201980590820312,
+    "train_acc": 1.0,
+    "eval_acc": 0.5,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 108,
+    "exact": false,
+    "domain_acc": 0.6412
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 10.028892517089844,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 82,
+    "exact": false,
+    "domain_acc": 0.7276
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 9.893634796142578,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 99,
+    "exact": false,
+    "domain_acc": 0.6711
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 10.415193557739258,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 50,
+    "exact": false,
+    "domain_acc": 0.8339
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 11.431586265563965,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 91,
+    "exact": false,
+    "domain_acc": 0.6977
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 9.725252151489258,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 84,
+    "exact": false,
+    "domain_acc": 0.7209
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 10.157235145568848,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 102,
+    "exact": false,
+    "domain_acc": 0.6611
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 10.879798889160156,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 63,
+    "exact": false,
+    "domain_acc": 0.7907
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 10.086347579956055,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 125,
+    "exact": false,
+    "domain_acc": 0.5847
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 10.75354290008545,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 10.880645751953125,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 59,
+    "exact": false,
+    "domain_acc": 0.804
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 11.087446212768555,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 71,
+    "exact": false,
+    "domain_acc": 0.7641
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 10.456785202026367,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 89,
+    "exact": false,
+    "domain_acc": 0.7043
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 9.577925682067871,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 66,
+    "exact": false,
+    "domain_acc": 0.7807
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 10.534919738769531,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 57,
+    "exact": false,
+    "domain_acc": 0.8106
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 12.228422164916992,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 36,
+    "exact": false,
+    "domain_acc": 0.8804
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 9.989570617675781,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 107,
+    "exact": false,
+    "domain_acc": 0.6445
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 10.077995300292969,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 113,
+    "exact": false,
+    "domain_acc": 0.6246
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 10.264219284057617,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 141,
+    "exact": false,
+    "domain_acc": 0.5316
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 10.318838119506836,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 130,
+    "exact": false,
+    "domain_acc": 0.5681
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.329885482788086,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 102,
+    "exact": false,
+    "domain_acc": 0.6611
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 10.950502395629883,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 10.017721176147461,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 114,
+    "exact": false,
+    "domain_acc": 0.6213
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 10.289950370788574,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 81,
+    "exact": false,
+    "domain_acc": 0.7309
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.240129470825195,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 66,
+    "exact": false,
+    "domain_acc": 0.7807
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 11.319421768188477,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 16,
+    "exact": false,
+    "domain_acc": 0.9468
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 11.25135612487793,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 56,
+    "exact": false,
+    "domain_acc": 0.814
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 10.545637130737305,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 49,
+    "exact": false,
+    "domain_acc": 0.8372
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 9.737517356872559,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 101,
+    "exact": false,
+    "domain_acc": 0.6645
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 10.679642677307129,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 11.352983474731445,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 74,
+    "exact": false,
+    "domain_acc": 0.7542
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 10.702058792114258,
+    "train_acc": 1.0,
+    "eval_acc": 0.5208333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 119,
+    "exact": false,
+    "domain_acc": 0.6047
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 9.398542404174805,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 144,
+    "exact": false,
+    "domain_acc": 0.5216
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 9.778008460998535,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 112,
+    "exact": false,
+    "domain_acc": 0.6279
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.570406913757324,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 117,
+    "exact": false,
+    "domain_acc": 0.6113
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.778594970703125,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 78,
+    "exact": false,
+    "domain_acc": 0.7409
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 12,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.476984977722168,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 82,
+    "exact": false,
+    "domain_acc": 0.7276
+  },
+  {
+    "function_id": "and(abs17,mod4r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        17
+      ],
+      "b": [
+        "mod",
+        4,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 17 and x modulo 4 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 17) and (x % 4 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 9.65707778930664,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 65,
+    "exact": false,
+    "domain_acc": 0.7841
+  },
+  {
+    "function_id": "and(abs25,mod3r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "abs",
+        25
+      ],
+      "b": [
+        "mod",
+        3,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 25 and x modulo 3 equals 1, otherwise output 0.",
+    "expression": "1 if (abs(x) > 25) and (x % 3 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.724252,
+    "z_norm": 9.884206771850586,
+    "train_acc": 1.0,
+    "eval_acc": 0.7083333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 86,
+    "exact": false,
+    "domain_acc": 0.7143
+  },
+  {
+    "function_id": "and(gt-102,abs52)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -102
+      ],
+      "b": [
+        "abs",
+        52
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -102 and the absolute value of x is greater than 52, otherwise output 0.",
+    "expression": "1 if (x > -102) and (abs(x) > 52) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.511628,
+    "z_norm": 9.913965225219727,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 59,
+    "exact": false,
+    "domain_acc": 0.804
+  },
+  {
+    "function_id": "and(gt-112,abs26)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -112
+      ],
+      "b": [
+        "abs",
+        26
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -112 and the absolute value of x is greater than 26, otherwise output 0.",
+    "expression": "1 if (x > -112) and (abs(x) > 26) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 10.582551002502441,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 68,
+    "exact": false,
+    "domain_acc": 0.7741
+  },
+  {
+    "function_id": "and(gt-119,mod5r1)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -119
+      ],
+      "b": [
+        "mod",
+        5,
+        1
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -119 and x modulo 5 equals 1, otherwise output 0.",
+    "expression": "1 if (x > -119) and (x % 5 == 1) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 10.268838882446289,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 76,
+    "exact": false,
+    "domain_acc": 0.7475
+  },
+  {
+    "function_id": "and(gt-130,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -130
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -130 and x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -130) and (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.813953,
+    "z_norm": 10.592287063598633,
+    "train_acc": 1.0,
+    "eval_acc": 0.8541666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 81,
+    "exact": false,
+    "domain_acc": 0.7309
+  },
+  {
+    "function_id": "and(gt-142,abs110)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -142
+      ],
+      "b": [
+        "abs",
+        110
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -142 and the absolute value of x is greater than 110, otherwise output 0.",
+    "expression": "1 if (x > -142) and (abs(x) > 110) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.76412,
+    "z_norm": 9.648460388183594,
+    "train_acc": 1.0,
+    "eval_acc": 0.9166666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 33,
+    "exact": false,
+    "domain_acc": 0.8904
+  },
+  {
+    "function_id": "and(gt-58,mod3r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -58
+      ],
+      "b": [
+        "mod",
+        3,
+        2
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -58 and x modulo 3 equals 2, otherwise output 0.",
+    "expression": "1 if (x > -58) and (x % 3 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.770764,
+    "z_norm": 11.423357963562012,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 72,
+    "exact": false,
+    "domain_acc": 0.7608
+  },
+  {
+    "function_id": "and(gt-91,mod5r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "gt",
+        -91
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -91 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x > -91) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.840532,
+    "z_norm": 11.095573425292969,
+    "train_acc": 1.0,
+    "eval_acc": 0.5833333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 110,
+    "exact": false,
+    "domain_acc": 0.6346
+  },
+  {
+    "function_id": "and(lt140,mod5r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        140
+      ],
+      "b": [
+        "mod",
+        5,
+        4
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 140 and x modulo 5 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 140) and (x % 5 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.807309,
+    "z_norm": 11.024412155151367,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 67,
+    "exact": false,
+    "domain_acc": 0.7774
+  },
+  {
+    "function_id": "and(lt81,abs3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        81
+      ],
+      "b": [
+        "abs",
+        3
+      ],
+      "op": "and"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 81 and the absolute value of x is greater than 3, otherwise output 0.",
+    "expression": "1 if (x < 81) and (abs(x) > 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.744186,
+    "z_norm": 11.31556510925293,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 51,
+    "exact": false,
+    "domain_acc": 0.8306
+  },
+  {
+    "function_id": "and(lt99,mod2r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_and",
+    "params": {
+      "a": [
+        "lt",
+        99
+      ],
+      "b": [
+        "mod",
+        2,
+        0
+      ],
+      "op": "and"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 99 and x modulo 2 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 99) and (x % 2 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.584718,
+    "z_norm": 10.211366653442383,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 123,
+    "exact": false,
+    "domain_acc": 0.5914
+  },
+  {
+    "function_id": "andnot(abs2,abs88)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        2
+      ],
+      "b": [
+        "abs",
+        88
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 2 and it is not the case that the absolute value of x is greater than 88, otherwise output 0.",
+    "expression": "1 if (abs(x) > 2) and not (abs(x) > 88) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.571429,
+    "z_norm": 11.45071792602539,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 41,
+    "exact": false,
+    "domain_acc": 0.8638
+  },
+  {
+    "function_id": "andnot(abs96,abs145)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "abs",
+        96
+      ],
+      "b": [
+        "abs",
+        145
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 96 and it is not the case that the absolute value of x is greater than 145, otherwise output 0.",
+    "expression": "1 if (abs(x) > 96) and not (abs(x) > 145) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.674419,
+    "z_norm": 11.069421768188477,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 48,
+    "exact": false,
+    "domain_acc": 0.8405
+  },
+  {
+    "function_id": "andnot(gt-127,mod7r3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -127
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -127 and it is not the case that x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x > -127) and not (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.787375,
+    "z_norm": 9.491531372070312,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 66,
+    "exact": false,
+    "domain_acc": 0.7807
+  },
+  {
+    "function_id": "andnot(gt-42,gt4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -42
+      ],
+      "b": [
+        "gt",
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -42 and it is not the case that x is greater than 4, otherwise output 0.",
+    "expression": "1 if (x > -42) and not (x > 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.847176,
+    "z_norm": 11.38450813293457,
+    "train_acc": 1.0,
+    "eval_acc": 0.875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 35,
+    "exact": false,
+    "domain_acc": 0.8837
+  },
+  {
+    "function_id": "andnot(gt-69,gt48)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        -69
+      ],
+      "b": [
+        "gt",
+        48
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -69 and it is not the case that x is greater than 48, otherwise output 0.",
+    "expression": "1 if (x > -69) and not (x > 48) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.611296,
+    "z_norm": 10.226150512695312,
+    "train_acc": 1.0,
+    "eval_acc": 0.8958333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 38,
+    "exact": false,
+    "domain_acc": 0.8738
+  },
+  {
+    "function_id": "andnot(gt18,gt124)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "gt",
+        18
+      ],
+      "b": [
+        "gt",
+        124
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 18 and it is not the case that x is greater than 124, otherwise output 0.",
+    "expression": "1 if (x > 18) and not (x > 124) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.647841,
+    "z_norm": 9.94873046875,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "andnot(lt-21,mod8r5)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        -21
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than -21 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x < -21) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.624585,
+    "z_norm": 11.201108932495117,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 25,
+    "exact": false,
+    "domain_acc": 0.9169
+  },
+  {
+    "function_id": "andnot(lt90,mod9r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "lt",
+        90
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 90 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x < 90) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.707641,
+    "z_norm": 10.150960922241211,
+    "train_acc": 1.0,
+    "eval_acc": 0.5416666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 106,
+    "exact": false,
+    "domain_acc": 0.6478
+  },
+  {
+    "function_id": "andnot(mod2r1,mod3r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.667774,
+    "z_norm": 10.514915466308594,
+    "train_acc": 1.0,
+    "eval_acc": 0.6458333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 113,
+    "exact": false,
+    "domain_acc": 0.6246
+  },
+  {
+    "function_id": "andnot(mod2r1,mod9r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        2,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 2 equals 1 and it is not the case that x modulo 9 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 2 == 1) and not (x % 9 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.554817,
+    "z_norm": 10.104372024536133,
+    "train_acc": 1.0,
+    "eval_acc": 0.625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 134,
+    "exact": false,
+    "domain_acc": 0.5548
+  },
+  {
+    "function_id": "andnot(mod3r1,mod9r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        1
+      ],
+      "b": [
+        "mod",
+        9,
+        4
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 1 and it is not the case that x modulo 9 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 3 == 1) and not (x % 9 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 11.332160949707031,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 125,
+    "exact": false,
+    "domain_acc": 0.5847
+  },
+  {
+    "function_id": "andnot(mod4r2,mod7r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        2
+      ],
+      "b": [
+        "mod",
+        7,
+        0
+      ],
+      "op": "andnot"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 4 equals 2 and it is not the case that x modulo 7 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 4 == 2) and not (x % 7 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.780731,
+    "z_norm": 10.709413528442383,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 105,
+    "exact": false,
+    "domain_acc": 0.6512
+  },
+  {
+    "function_id": "andnot(mod5r0,mod7r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        0
+      ],
+      "b": [
+        "mod",
+        7,
+        2
+      ],
+      "op": "andnot"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 0 and it is not the case that x modulo 7 equals 2, otherwise output 0.",
+    "expression": "1 if (x % 5 == 0) and not (x % 7 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.827243,
+    "z_norm": 12.405841827392578,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 62,
+    "exact": false,
+    "domain_acc": 0.794
+  },
+  {
+    "function_id": "andnot(mod5r2,mod8r5)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_andnot",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        2
+      ],
+      "b": [
+        "mod",
+        8,
+        5
+      ],
+      "op": "andnot"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 2 and it is not the case that x modulo 8 equals 5, otherwise output 0.",
+    "expression": "1 if (x % 5 == 2) and not (x % 8 == 5) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.82392,
+    "z_norm": 9.953266143798828,
+    "train_acc": 1.0,
+    "eval_acc": 0.6666666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 83,
+    "exact": false,
+    "domain_acc": 0.7243
+  },
+  {
+    "function_id": "or(abs115,mod9r2)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "abs",
+        115
+      ],
+      "b": [
+        "mod",
+        9,
+        2
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if the absolute value of x is greater than 115 or x modulo 9 equals 2, otherwise output 0.",
+    "expression": "1 if (abs(x) > 115) or (x % 9 == 2) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.681063,
+    "z_norm": 10.907405853271484,
+    "train_acc": 1.0,
+    "eval_acc": 0.7708333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 66,
+    "exact": false,
+    "domain_acc": 0.7807
+  },
+  {
+    "function_id": "or(gt-10,lt-104)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -10
+      ],
+      "b": [
+        "lt",
+        -104
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -10 or x is less than -104, otherwise output 0.",
+    "expression": "1 if (x > -10) or (x < -104) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 9.864683151245117,
+    "train_acc": 1.0,
+    "eval_acc": 0.8333333333333334,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 42,
+    "exact": false,
+    "domain_acc": 0.8605
+  },
+  {
+    "function_id": "or(gt-24,lt-91)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -24
+      ],
+      "b": [
+        "lt",
+        -91
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -24 or x is less than -91, otherwise output 0.",
+    "expression": "1 if (x > -24) or (x < -91) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.774086,
+    "z_norm": 9.765554428100586,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 33,
+    "exact": false,
+    "domain_acc": 0.8904
+  },
+  {
+    "function_id": "or(gt-62,mod3r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        -62
+      ],
+      "b": [
+        "mod",
+        3,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than -62 or x modulo 3 equals 0, otherwise output 0.",
+    "expression": "1 if (x > -62) or (x % 3 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.803987,
+    "z_norm": 10.114486694335938,
+    "train_acc": 1.0,
+    "eval_acc": 0.7916666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 55,
+    "exact": false,
+    "domain_acc": 0.8173
+  },
+  {
+    "function_id": "or(gt127,lt49)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        127
+      ],
+      "b": [
+        "lt",
+        49
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 127 or x is less than 49, otherwise output 0.",
+    "expression": "1 if (x > 127) or (x < 49) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.737542,
+    "z_norm": 10.840949058532715,
+    "train_acc": 1.0,
+    "eval_acc": 0.9375,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 43,
+    "exact": false,
+    "domain_acc": 0.8571
+  },
+  {
+    "function_id": "or(gt25,lt-66)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        25
+      ],
+      "b": [
+        "lt",
+        -66
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 25 or x is less than -66, otherwise output 0.",
+    "expression": "1 if (x > 25) or (x < -66) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.694352,
+    "z_norm": 10.078239440917969,
+    "train_acc": 1.0,
+    "eval_acc": 0.8125,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 52,
+    "exact": false,
+    "domain_acc": 0.8272
+  },
+  {
+    "function_id": "or(gt91,lt-10)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "gt",
+        91
+      ],
+      "b": [
+        "lt",
+        -10
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is greater than 91 or x is less than -10, otherwise output 0.",
+    "expression": "1 if (x > 91) or (x < -10) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.66113,
+    "z_norm": 10.034167289733887,
+    "train_acc": 1.0,
+    "eval_acc": 0.9166666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 25,
+    "exact": false,
+    "domain_acc": 0.9169
+  },
+  {
+    "function_id": "or(lt47,mod6r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "lt",
+        47
+      ],
+      "b": [
+        "mod",
+        6,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x is less than 47 or x modulo 6 equals 0, otherwise output 0.",
+    "expression": "1 if (x < 47) or (x % 6 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.714286,
+    "z_norm": 10.804121017456055,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 50,
+    "exact": false,
+    "domain_acc": 0.8339
+  },
+  {
+    "function_id": "or(mod3r0,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        0
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "test",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 0 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 0) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 10.634969711303711,
+    "train_acc": 1.0,
+    "eval_acc": 0.5625,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 117,
+    "exact": false,
+    "domain_acc": 0.6113
+  },
+  {
+    "function_id": "or(mod3r2,mod5r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        3,
+        2
+      ],
+      "b": [
+        "mod",
+        5,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 3 equals 2 or x modulo 5 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 3 == 2) or (x % 5 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.531561,
+    "z_norm": 10.194032669067383,
+    "train_acc": 1.0,
+    "eval_acc": 0.4583333333333333,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 149,
+    "exact": false,
+    "domain_acc": 0.505
+  },
+  {
+    "function_id": "or(mod4r1,mod7r3)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        4,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        3
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 4 equals 1 or x modulo 7 equals 3, otherwise output 0.",
+    "expression": "1 if (x % 4 == 1) or (x % 7 == 3) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.641196,
+    "z_norm": 10.226786613464355,
+    "train_acc": 1.0,
+    "eval_acc": 0.6041666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 106,
+    "exact": false,
+    "domain_acc": 0.6478
+  },
+  {
+    "function_id": "or(mod5r1,mod7r4)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        5,
+        1
+      ],
+      "b": [
+        "mod",
+        7,
+        4
+      ],
+      "op": "or"
+    },
+    "split": "val",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 5 equals 1 or x modulo 7 equals 4, otherwise output 0.",
+    "expression": "1 if (x % 5 == 1) or (x % 7 == 4) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.684385,
+    "z_norm": 10.571332931518555,
+    "train_acc": 1.0,
+    "eval_acc": 0.6875,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 90,
+    "exact": false,
+    "domain_acc": 0.701
+  },
+  {
+    "function_id": "or(mod7r1,mod8r7)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        1
+      ],
+      "b": [
+        "mod",
+        8,
+        7
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 7 equals 1 or x modulo 8 equals 7, otherwise output 0.",
+    "expression": "1 if (x % 7 == 1) or (x % 8 == 7) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 14.901166915893555,
+    "train_acc": 1.0,
+    "eval_acc": 0.7291666666666666,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 87,
+    "exact": false,
+    "domain_acc": 0.711
+  },
+  {
+    "function_id": "or(mod7r5,mod8r0)",
+    "view": 0,
+    "seed_idx": 1,
+    "family": "comp_or",
+    "params": {
+      "a": [
+        "mod",
+        7,
+        5
+      ],
+      "b": [
+        "mod",
+        8,
+        0
+      ],
+      "op": "or"
+    },
+    "split": "train",
+    "n_examples": 16,
+    "description": "Output 1 if x modulo 7 equals 5 or x modulo 8 equals 0, otherwise output 0.",
+    "expression": "1 if (x % 7 == 5) or (x % 8 == 0) else 0",
+    "labels": [
+      "0",
+      "1"
+    ],
+    "majority_label_fraction": 0.750831,
+    "z_norm": 9.731552124023438,
+    "train_acc": 1.0,
+    "eval_acc": 0.75,
+    "carrier": "Qwen/Qwen3-4B",
+    "n_soft_tokens": 16,
+    "steps": 500,
+    "n_wrong": 74,
+    "exact": false,
+    "domain_acc": 0.7542
+  }
+]

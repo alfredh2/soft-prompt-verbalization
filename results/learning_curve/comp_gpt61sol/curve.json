@@ -1,0 +1,100 @@
+{
+  "model": "gpt-6.1-sol",
+  "curve": {
+    "4": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.7034,
+      "disagreement": 0.2966,
+      "support": 1.0,
+      "held_out": 0.7042,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "8": {
+      "n": 40,
+      "ran": 39,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.7191,
+      "disagreement": 0.2809,
+      "support": 1.0,
+      "held_out": 0.7228,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "16": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.05,
+      "domain_acc": 0.8525,
+      "disagreement": 0.1475,
+      "support": 1.0,
+      "held_out": 0.8448,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "32": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.2,
+      "domain_acc": 0.9688,
+      "disagreement": 0.0312,
+      "support": 0.9992,
+      "held_out": 0.963,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "64": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.3,
+      "domain_acc": 0.9895,
+      "disagreement": 0.0105,
+      "support": 1.0,
+      "held_out": 0.9875,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "96": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.35,
+      "domain_acc": 0.9934,
+      "disagreement": 0.0066,
+      "support": 0.9987,
+      "held_out": 0.9901,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "128": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.4,
+      "domain_acc": 0.9952,
+      "disagreement": 0.0048,
+      "support": 1.0,
+      "held_out": 0.9911,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "192": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.625,
+      "domain_acc": 0.9978,
+      "disagreement": 0.0022,
+      "support": 0.9999,
+      "held_out": 0.9964,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 321,
+    "errors": 0,
+    "input_tokens": 260618,
+    "output_tokens": 171277,
+    "estimated_usd": 2.234
+  }
+}

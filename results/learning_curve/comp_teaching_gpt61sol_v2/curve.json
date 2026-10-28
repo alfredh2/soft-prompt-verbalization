@@ -1,0 +1,46 @@
+{
+  "model": "gpt-6.1-sol",
+  "support": "teaching",
+  "curve": {
+    "12": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.25,
+      "domain_acc": 0.7865,
+      "disagreement": 0.2135,
+      "support": 0.9979,
+      "held_out": 0.7792,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "16": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.525,
+      "domain_acc": 0.8738,
+      "disagreement": 0.1262,
+      "support": 0.9969,
+      "held_out": 0.8688,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "32": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.825,
+      "domain_acc": 0.9865,
+      "disagreement": 0.0135,
+      "support": 0.9977,
+      "held_out": 0.9896,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 120,
+    "errors": 0,
+    "input_tokens": 40560,
+    "output_tokens": 203203,
+    "estimated_usd": 2.1131
+  }
+}

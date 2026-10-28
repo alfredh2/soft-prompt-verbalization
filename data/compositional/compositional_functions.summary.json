@@ -1,0 +1,45 @@
+{
+  "records": 1600,
+  "functions": 160,
+  "hypothesis_class_behaviours": 188011,
+  "by_family": {
+    "comp_and": 40,
+    "comp_andnot": 60,
+    "comp_or": 60
+  },
+  "by_pair_type": {
+    "MM": 40,
+    "MT": 60,
+    "TT": 60
+  },
+  "by_split": {
+    "test": 28,
+    "train": 108,
+    "val": 24
+  },
+  "by_n_examples": {
+    "8": 320,
+    "16": 320,
+    "32": 320,
+    "64": 320,
+    "128": 320
+  },
+  "mean_majority_label_fraction": 0.6928,
+  "domain_spec": {
+    "int_low": -150,
+    "int_high": 150,
+    "mod_max": 9
+  },
+  "n_holdout": 48,
+  "args": {
+    "int_high": "150",
+    "int_low": "-150",
+    "mod_max": "9",
+    "n_holdout": "48",
+    "out": "data/compositional/compositional_functions.jsonl.gz",
+    "per_stratum": "20",
+    "seed": "0",
+    "sizes": "8,16,32,64,128",
+    "views": "2"
+  }
+}

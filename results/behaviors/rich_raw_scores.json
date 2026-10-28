@@ -1,0 +1,133 @@
+{
+ "executor": "Qwen/Qwen3.5-4B",
+ "proposer": "openai:gpt-6.1-sol",
+ "scores": {
+  "plain": {
+   "base": 0.9609,
+   "oracle": 0.9609,
+   "propose_1024_s0": 1,
+   "propose_1024_s1": 1,
+   "propose_1024_s2": 0.8203,
+   "constant_1024": 0.5
+  },
+  "flip_animal": {
+   "base": 0.2734,
+   "oracle": 0.5156,
+   "propose_1024_s0": 0.6562,
+   "propose_1024_s1": 0.6719,
+   "propose_1024_s2": 0.8047,
+   "constant_1024": 0.7422
+  },
+  "flip_food": {
+   "base": 0.2812,
+   "oracle": 0.5391,
+   "propose_1024_s0": 0.7969,
+   "propose_1024_s1": 0.7812,
+   "propose_1024_s2": 0.75,
+   "constant_1024": 0.7734
+  },
+  "flip_number": {
+   "base": 0.0391,
+   "oracle": 0.4844,
+   "propose_1024_s0": 0.8984,
+   "propose_1024_s1": 0.9766,
+   "propose_1024_s2": 0.9844,
+   "constant_1024": 0.5078
+  },
+  "flip_question": {
+   "base": 0.1797,
+   "oracle": 0.6484,
+   "propose_1024_s0": 0.9062,
+   "propose_1024_s1": 0.9141,
+   "propose_1024_s2": 0.8516,
+   "constant_1024": 0.6328
+  },
+  "neutral_animal": {
+   "base": 0.7891,
+   "oracle": 0.9297,
+   "propose_1024_s0": 0.8984,
+   "propose_1024_s1": 0.9609,
+   "propose_1024_s2": 0.8438,
+   "constant_1024": 0.4141
+  },
+  "neutral_number": {
+   "base": 0.4922,
+   "oracle": 0.9922,
+   "propose_1024_s0": 0.9453,
+   "propose_1024_s1": 0.9688,
+   "propose_1024_s2": 0.9531,
+   "constant_1024": 0.5078
+  },
+  "negative_question": {
+   "base": 0.7578,
+   "oracle": 0.9922,
+   "propose_1024_s0": 0.9922,
+   "propose_1024_s1": 0.9922,
+   "propose_1024_s2": 0.9922,
+   "constant_1024": 0.7422
+  },
+  "flip_animal_and_question": {
+   "base": 0.4844,
+   "oracle": 0.5938,
+   "propose_1024_s0": 0.9766,
+   "propose_1024_s1": 0.9922,
+   "propose_1024_s2": 0.9062,
+   "constant_1024": 0.5469
+  },
+  "flip_food_or_number": {
+   "base": 0.0703,
+   "oracle": 0.6406,
+   "propose_1024_s0": 0.9219,
+   "propose_1024_s1": 0.8516,
+   "propose_1024_s2": 0.9141,
+   "constant_1024": 0.5547
+  },
+  "neutral_person_and_number": {
+   "base": 0.5547,
+   "oracle": 0.8281,
+   "propose_1024_s0": 0.8828,
+   "propose_1024_s1": 0.8672,
+   "propose_1024_s2": 0.8594,
+   "constant_1024": 0.4453
+  },
+  "negative_animal_or_food_statement": {
+   "base": 0.7109,
+   "oracle": 0.8984,
+   "propose_1024_s0": 0.8281,
+   "propose_1024_s1": 0.8516,
+   "propose_1024_s2": 0.8203,
+   "constant_1024": 0.6797
+  },
+  "flip_unless_object": {
+   "base": 0.0312,
+   "oracle": 0.9531,
+   "propose_1024_s0": 1,
+   "propose_1024_s1": 1,
+   "propose_1024_s2": 1,
+   "constant_1024": 0.5
+  }
+ },
+ "parse": {
+  "no_marker": {
+   "propose_1024_s0": 30,
+   "propose_1024_s1": 30,
+   "propose_1024_s2": 33
+  },
+  "unparsed": {},
+  "total": {
+   "base": 1664,
+   "oracle": 1664,
+   "propose_1024_s0": 1664,
+   "propose_1024_s1": 1664,
+   "propose_1024_s2": 1664
+  },
+  "rate": {
+   "base": 0.0,
+   "oracle": 0.0,
+   "propose_1024_s0": 0.018,
+   "propose_1024_s1": 0.018,
+   "propose_1024_s2": 0.0198
+  }
+ },
+ "n_test": 128
+}

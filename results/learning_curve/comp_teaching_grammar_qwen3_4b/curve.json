@@ -1,0 +1,58 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "support": "teaching",
+  "grammar": true,
+  "order": "sorted",
+  "curve": {
+    "8": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.534,
+      "disagreement": 0.466,
+      "support": 0.5312,
+      "held_out": 0.5276,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "12": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.5986,
+      "disagreement": 0.4014,
+      "support": 0.6146,
+      "held_out": 0.5958,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "16": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.5541,
+      "disagreement": 0.4459,
+      "support": 0.5141,
+      "held_out": 0.551,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "32": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.558,
+      "disagreement": 0.442,
+      "support": 0.5453,
+      "held_out": 0.5557,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

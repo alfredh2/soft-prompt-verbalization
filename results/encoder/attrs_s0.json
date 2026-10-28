@@ -1,0 +1,63 @@
+{
+ "args": {
+  "data": "data/behaviors/library_qwen35_9b.json",
+  "lam": 1.0,
+  "steps": 1500,
+  "batch": 24,
+  "queries": 3,
+  "micro": 48,
+  "sizes": [
+   32,
+   64,
+   128
+  ],
+  "lr": 0.0003,
+  "seed": 0,
+  "split_seed": 0,
+  "shuffle_ids": false,
+  "features": "attrs",
+  "only_named": false,
+  "agree_mask": 0.95,
+  "eval_every": 250,
+  "out": "results/encoder/attrs_s0"
+ },
+ "history": [
+  {
+   "step": 250,
+   "train": 0.7734,
+   "held_random": 0.7852,
+   "held_comp": 0.6927
+  },
+  {
+   "step": 500,
+   "train": 0.7611,
+   "held_random": 0.8186,
+   "held_comp": 0.6927
+  },
+  {
+   "step": 750,
+   "train": 0.8158,
+   "held_random": 0.832,
+   "held_comp": 0.7578
+  },
+  {
+   "step": 1000,
+   "train": 0.8385,
+   "held_random": 0.8438,
+   "held_comp": 0.8359
+  },
+  {
+   "step": 1250,
+   "train": 0.8665,
+   "held_random": 0.8449,
+   "held_comp": 0.8568
+  },
+  {
+   "step": 1500,
+   "train": 0.8809,
+   "held_random": 0.8471,
+   "held_comp": 0.8698
+  }
+ ],
+ "seconds": 1957
+}

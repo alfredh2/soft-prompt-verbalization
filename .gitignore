@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.venv/
+# large run artifacts (checkpoints, z banks, SAE weights) stay local
+*.pt
+*.safetensors
+free_z/runs/
+attrib/results/classifier*/
+attrib/results/roberta/classifier/*.safetensors
+attrib/results/sae*/

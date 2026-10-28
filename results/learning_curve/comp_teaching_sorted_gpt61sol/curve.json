@@ -1,0 +1,59 @@
+{
+  "model": "gpt-6.1-sol",
+  "support": "teaching",
+  "grammar": false,
+  "order": "sorted",
+  "curve": {
+    "8": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.325,
+      "domain_acc": 0.7417,
+      "disagreement": 0.2583,
+      "support": 1.0,
+      "held_out": 0.738,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "12": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.425,
+      "domain_acc": 0.8539,
+      "disagreement": 0.1461,
+      "support": 1.0,
+      "held_out": 0.8516,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "16": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.6,
+      "domain_acc": 0.9113,
+      "disagreement": 0.0887,
+      "support": 0.9984,
+      "held_out": 0.9135,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "32": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.85,
+      "domain_acc": 0.988,
+      "disagreement": 0.012,
+      "support": 1.0,
+      "held_out": 0.987,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 160,
+    "errors": 0,
+    "input_tokens": 49280,
+    "output_tokens": 183470,
+    "estimated_usd": 1.9333
+  }
+}

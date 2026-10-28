@@ -1,0 +1,1794 @@
+{
+  "tier": "compositional",
+  "support": "teaching",
+  "functions": [
+    "and(abs17,mod4r1)",
+    "and(abs25,mod3r1)",
+    "and(gt-102,abs52)",
+    "and(gt-112,abs26)",
+    "and(gt-119,mod5r1)",
+    "and(gt-130,mod5r0)",
+    "and(gt-142,abs110)",
+    "and(gt-58,mod3r2)",
+    "and(gt-91,mod5r4)",
+    "and(lt140,mod5r4)",
+    "and(lt81,abs3)",
+    "and(lt99,mod2r0)",
+    "andnot(abs2,abs88)",
+    "andnot(abs96,abs145)",
+    "andnot(gt-127,mod7r3)",
+    "andnot(gt-42,gt4)",
+    "andnot(gt-69,gt48)",
+    "andnot(gt18,gt124)",
+    "andnot(lt-21,mod8r5)",
+    "andnot(lt90,mod9r4)",
+    "andnot(mod2r1,mod3r0)",
+    "andnot(mod2r1,mod9r0)",
+    "andnot(mod3r1,mod9r4)",
+    "andnot(mod4r2,mod7r0)",
+    "andnot(mod5r0,mod7r2)",
+    "andnot(mod5r2,mod8r5)",
+    "or(abs115,mod9r2)",
+    "or(gt-10,lt-104)",
+    "or(gt-24,lt-91)",
+    "or(gt-62,mod3r0)",
+    "or(gt127,lt49)",
+    "or(gt25,lt-66)",
+    "or(gt91,lt-10)",
+    "or(lt47,mod6r0)",
+    "or(mod3r0,mod5r0)",
+    "or(mod3r2,mod5r0)",
+    "or(mod4r1,mod7r3)",
+    "or(mod5r1,mod7r4)",
+    "or(mod7r1,mod8r7)",
+    "or(mod7r5,mod8r0)"
+  ],
+  "by_size": {
+    "2": {
+      "n": 40,
+      "identifiable": 0.0,
+      "guess_1_over_k": 0.0001,
+      "median_consistent": 6188.0,
+      "identifiable_eligible": 0.0,
+      "bayes_exact": 0.0038
+    },
+    "4": {
+      "n": 40,
+      "identifiable": 0.0,
+      "guess_1_over_k": 0.0082,
+      "median_consistent": 289.0,
+      "identifiable_eligible": 0.0,
+      "bayes_exact": 0.0661
+    },
+    "6": {
+      "n": 40,
+      "identifiable": 0.275,
+      "guess_1_over_k": 0.4357,
+      "median_consistent": 3.5,
+      "identifiable_eligible": 0.3,
+      "bayes_exact": 0.5198
+    },
+    "8": {
+      "n": 40,
+      "identifiable": 0.8,
+      "guess_1_over_k": 0.9,
+      "median_consistent": 1.0,
+      "identifiable_eligible": 0.825,
+      "bayes_exact": 0.916
+    },
+    "12": {
+      "n": 40,
+      "identifiable": 1.0,
+      "guess_1_over_k": 1.0,
+      "median_consistent": 1.0,
+      "identifiable_eligible": 1.0,
+      "bayes_exact": 1.0
+    },
+    "16": {
+      "n": 40,
+      "identifiable": 1.0,
+      "guess_1_over_k": 1.0,
+      "median_consistent": 1.0,
+      "identifiable_eligible": 1.0,
+      "bayes_exact": 1.0
+    },
+    "32": {
+      "n": 40,
+      "identifiable": 1.0,
+      "guess_1_over_k": 1.0,
+      "median_consistent": 1.0,
+      "identifiable_eligible": 1.0,
+      "bayes_exact": 1.0
+    },
+    "64": {
+      "n": 40,
+      "identifiable": 1.0,
+      "guess_1_over_k": 1.0,
+      "median_consistent": 1.0,
+      "identifiable_eligible": 1.0,
+      "bayes_exact": 1.0
+    }
+  },
+  "per_function": {
+    "and(abs17,mod4r1)": {
+      "2": {
+        "k": 6328,
+        "k_eligible": 5134,
+        "bayes": 0.004305213299373344
+      },
+      "4": {
+        "k": 607,
+        "k_eligible": 568,
+        "bayes": 0.01588582555925593
+      },
+      "6": {
+        "k": 6,
+        "k_eligible": 6,
+        "bayes": 0.23894524004478385
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(abs25,mod3r1)": {
+      "2": {
+        "k": 6384,
+        "k_eligible": 5329,
+        "bayes": 0.003752796734054828
+      },
+      "4": {
+        "k": 325,
+        "k_eligible": 323,
+        "bayes": 0.06050925038816933
+      },
+      "6": {
+        "k": 3,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-102,abs52)": {
+      "2": {
+        "k": 6757,
+        "k_eligible": 6001,
+        "bayes": 0.002797373734837419
+      },
+      "4": {
+        "k": 138,
+        "k_eligible": 131,
+        "bayes": 0.1164179942050964
+      },
+      "6": {
+        "k": 3,
+        "k_eligible": 3,
+        "bayes": 0.3444732456952416
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-112,abs26)": {
+      "2": {
+        "k": 7012,
+        "k_eligible": 6113,
+        "bayes": 0.0030657737216921413
+      },
+      "4": {
+        "k": 658,
+        "k_eligible": 655,
+        "bayes": 0.03378421329702916
+      },
+      "6": {
+        "k": 10,
+        "k_eligible": 10,
+        "bayes": 0.1274125676451475
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-119,mod5r1)": {
+      "2": {
+        "k": 6104,
+        "k_eligible": 4929,
+        "bayes": 0.004455483966490341
+      },
+      "4": {
+        "k": 484,
+        "k_eligible": 427,
+        "bayes": 0.055983847807986514
+      },
+      "6": {
+        "k": 19,
+        "k_eligible": 18,
+        "bayes": 0.21595489822477265
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-130,mod5r0)": {
+      "2": {
+        "k": 5851,
+        "k_eligible": 4805,
+        "bayes": 0.004432044517009306
+      },
+      "4": {
+        "k": 463,
+        "k_eligible": 423,
+        "bayes": 0.05534833935456904
+      },
+      "6": {
+        "k": 9,
+        "k_eligible": 9,
+        "bayes": 0.2546803801561414
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-142,abs110)": {
+      "2": {
+        "k": 18681,
+        "k_eligible": 13690,
+        "bayes": 0.0032834358954739852
+      },
+      "4": {
+        "k": 764,
+        "k_eligible": 696,
+        "bayes": 0.03150893784079577
+      },
+      "6": {
+        "k": 7,
+        "k_eligible": 7,
+        "bayes": 0.15124171848961507
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-58,mod3r2)": {
+      "2": {
+        "k": 6188,
+        "k_eligible": 5069,
+        "bayes": 0.003932776755604002
+      },
+      "4": {
+        "k": 206,
+        "k_eligible": 195,
+        "bayes": 0.10062836589445956
+      },
+      "6": {
+        "k": 7,
+        "k_eligible": 7,
+        "bayes": 0.14285714285714288
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(gt-91,mod5r4)": {
+      "2": {
+        "k": 6106,
+        "k_eligible": 4930,
+        "bayes": 0.004454605054900938
+      },
+      "4": {
+        "k": 338,
+        "k_eligible": 298,
+        "bayes": 0.10481929883226578
+      },
+      "6": {
+        "k": 4,
+        "k_eligible": 2,
+        "bayes": 0.7742690058479532
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(lt140,mod5r4)": {
+      "2": {
+        "k": 6104,
+        "k_eligible": 4929,
+        "bayes": 0.004455483966490341
+      },
+      "4": {
+        "k": 518,
+        "k_eligible": 449,
+        "bayes": 0.018402768257991323
+      },
+      "6": {
+        "k": 8,
+        "k_eligible": 8,
+        "bayes": 0.3244953132460011
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(lt81,abs3)": {
+      "2": {
+        "k": 6812,
+        "k_eligible": 5728,
+        "bayes": 0.0026399185178428222
+      },
+      "4": {
+        "k": 465,
+        "k_eligible": 465,
+        "bayes": 0.03444553308334568
+      },
+      "6": {
+        "k": 4,
+        "k_eligible": 4,
+        "bayes": 0.301513194984406
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "and(lt99,mod2r0)": {
+      "2": {
+        "k": 6025,
+        "k_eligible": 5092,
+        "bayes": 0.0031796319473062196
+      },
+      "4": {
+        "k": 301,
+        "k_eligible": 297,
+        "bayes": 0.03952712741296827
+      },
+      "6": {
+        "k": 7,
+        "k_eligible": 7,
+        "bayes": 0.737561942517344
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(abs2,abs88)": {
+      "2": {
+        "k": 7005,
+        "k_eligible": 5655,
+        "bayes": 0.003771394856083271
+      },
+      "4": {
+        "k": 511,
+        "k_eligible": 495,
+        "bayes": 0.05277826682017748
+      },
+      "6": {
+        "k": 4,
+        "k_eligible": 4,
+        "bayes": 0.25
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(abs96,abs145)": {
+      "2": {
+        "k": 6517,
+        "k_eligible": 4810,
+        "bayes": 0.003090422637875381
+      },
+      "4": {
+        "k": 246,
+        "k_eligible": 161,
+        "bayes": 0.05766885808129525
+      },
+      "6": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(gt-127,mod7r3)": {
+      "2": {
+        "k": 5864,
+        "k_eligible": 4905,
+        "bayes": 0.0039104447304107014
+      },
+      "4": {
+        "k": 277,
+        "k_eligible": 274,
+        "bayes": 0.06310508022281128
+      },
+      "6": {
+        "k": 9,
+        "k_eligible": 9,
+        "bayes": 0.1111111111111111
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(gt-42,gt4)": {
+      "2": {
+        "k": 6106,
+        "k_eligible": 4930,
+        "bayes": 0.004454605054900938
+      },
+      "4": {
+        "k": 180,
+        "k_eligible": 159,
+        "bayes": 0.10068624949173924
+      },
+      "6": {
+        "k": 15,
+        "k_eligible": 14,
+        "bayes": 0.18756522486012459
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(gt-69,gt48)": {
+      "2": {
+        "k": 19148,
+        "k_eligible": 16631,
+        "bayes": 0.0027736708896484107
+      },
+      "4": {
+        "k": 697,
+        "k_eligible": 697,
+        "bayes": 0.03129209045342442
+      },
+      "6": {
+        "k": 12,
+        "k_eligible": 12,
+        "bayes": 0.44066659745830616
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(gt18,gt124)": {
+      "2": {
+        "k": 6884,
+        "k_eligible": 5950,
+        "bayes": 0.0028743360399065766
+      },
+      "4": {
+        "k": 559,
+        "k_eligible": 558,
+        "bayes": 0.04324985248089039
+      },
+      "6": {
+        "k": 10,
+        "k_eligible": 10,
+        "bayes": 0.16421672614739577
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.6387729346665373
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(lt-21,mod8r5)": {
+      "2": {
+        "k": 6806,
+        "k_eligible": 5936,
+        "bayes": 0.002552097954491123
+      },
+      "4": {
+        "k": 50,
+        "k_eligible": 49,
+        "bayes": 0.052071798270203834
+      },
+      "6": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(lt90,mod9r4)": {
+      "2": {
+        "k": 9120,
+        "k_eligible": 7507,
+        "bayes": 0.003142619994770365
+      },
+      "4": {
+        "k": 303,
+        "k_eligible": 303,
+        "bayes": 0.051492176639829225
+      },
+      "6": {
+        "k": 13,
+        "k_eligible": 13,
+        "bayes": 0.2299752781211372
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod2r1,mod3r0)": {
+      "2": {
+        "k": 6188,
+        "k_eligible": 5069,
+        "bayes": 0.003932776755604002
+      },
+      "4": {
+        "k": 34,
+        "k_eligible": 34,
+        "bayes": 0.08920976855067371
+      },
+      "6": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod2r1,mod9r0)": {
+      "2": {
+        "k": 6131,
+        "k_eligible": 4949,
+        "bayes": 0.004437969322110538
+      },
+      "4": {
+        "k": 55,
+        "k_eligible": 55,
+        "bayes": 0.06831474737755981
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod3r1,mod9r4)": {
+      "2": {
+        "k": 6106,
+        "k_eligible": 4930,
+        "bayes": 0.004454605054900938
+      },
+      "4": {
+        "k": 102,
+        "k_eligible": 60,
+        "bayes": 0.08909811258092386
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod4r2,mod7r0)": {
+      "2": {
+        "k": 6040,
+        "k_eligible": 4887,
+        "bayes": 0.004450397210204676
+      },
+      "4": {
+        "k": 388,
+        "k_eligible": 43,
+        "bayes": 0.10234613423693054
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod5r0,mod7r2)": {
+      "2": {
+        "k": 5851,
+        "k_eligible": 4805,
+        "bayes": 0.004432044517009306
+      },
+      "4": {
+        "k": 63,
+        "k_eligible": 62,
+        "bayes": 0.1515106515884495
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "andnot(mod5r2,mod8r5)": {
+      "2": {
+        "k": 6040,
+        "k_eligible": 4887,
+        "bayes": 0.004450397210204676
+      },
+      "4": {
+        "k": 447,
+        "k_eligible": 406,
+        "bayes": 0.019794206847467247
+      },
+      "6": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(abs115,mod9r2)": {
+      "2": {
+        "k": 6040,
+        "k_eligible": 4887,
+        "bayes": 0.004450397210204676
+      },
+      "4": {
+        "k": 306,
+        "k_eligible": 303,
+        "bayes": 0.11027857358022403
+      },
+      "6": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt-10,lt-104)": {
+      "2": {
+        "k": 7158,
+        "k_eligible": 5731,
+        "bayes": 0.005279231846867133
+      },
+      "4": {
+        "k": 124,
+        "k_eligible": 124,
+        "bayes": 0.046044210168782046
+      },
+      "6": {
+        "k": 8,
+        "k_eligible": 8,
+        "bayes": 0.125
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt-24,lt-91)": {
+      "2": {
+        "k": 10261,
+        "k_eligible": 8285,
+        "bayes": 0.004881473129754913
+      },
+      "4": {
+        "k": 256,
+        "k_eligible": 190,
+        "bayes": 0.005499271165879478
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt-62,mod3r0)": {
+      "2": {
+        "k": 22039,
+        "k_eligible": 19445,
+        "bayes": 0.002364334659971984
+      },
+      "4": {
+        "k": 387,
+        "k_eligible": 293,
+        "bayes": 0.0657687479126304
+      },
+      "6": {
+        "k": 16,
+        "k_eligible": 16,
+        "bayes": 0.223863590529585
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt127,lt49)": {
+      "2": {
+        "k": 19325,
+        "k_eligible": 16680,
+        "bayes": 0.0024982149004219795
+      },
+      "4": {
+        "k": 550,
+        "k_eligible": 384,
+        "bayes": 0.0028759635679629254
+      },
+      "6": {
+        "k": 3,
+        "k_eligible": 3,
+        "bayes": 0.3333333333333333
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt25,lt-66)": {
+      "2": {
+        "k": 6804,
+        "k_eligible": 5974,
+        "bayes": 0.0025325915195258467
+      },
+      "4": {
+        "k": 53,
+        "k_eligible": 53,
+        "bayes": 0.12903992647724388
+      },
+      "6": {
+        "k": 3,
+        "k_eligible": 3,
+        "bayes": 0.3333333333333333
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(gt91,lt-10)": {
+      "2": {
+        "k": 6923,
+        "k_eligible": 5874,
+        "bayes": 0.0029073582365949707
+      },
+      "4": {
+        "k": 162,
+        "k_eligible": 162,
+        "bayes": 0.06424863246275603
+      },
+      "6": {
+        "k": 5,
+        "k_eligible": 5,
+        "bayes": 0.24221453287197228
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(lt47,mod6r0)": {
+      "2": {
+        "k": 19455,
+        "k_eligible": 16853,
+        "bayes": 0.002016627414462374
+      },
+      "4": {
+        "k": 973,
+        "k_eligible": 824,
+        "bayes": 0.032201573785771265
+      },
+      "6": {
+        "k": 27,
+        "k_eligible": 27,
+        "bayes": 0.03712942913876888
+      },
+      "8": {
+        "k": 2,
+        "k_eligible": 2,
+        "bayes": 0.5
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod3r0,mod5r0)": {
+      "2": {
+        "k": 6069,
+        "k_eligible": 5000,
+        "bayes": 0.003932299506288117
+      },
+      "4": {
+        "k": 38,
+        "k_eligible": 38,
+        "bayes": 0.053259013851081935
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod3r2,mod5r0)": {
+      "2": {
+        "k": 5851,
+        "k_eligible": 4805,
+        "bayes": 0.004432044517009306
+      },
+      "4": {
+        "k": 55,
+        "k_eligible": 55,
+        "bayes": 0.06831474737755981
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod4r1,mod7r3)": {
+      "2": {
+        "k": 6104,
+        "k_eligible": 4929,
+        "bayes": 0.004455483966490341
+      },
+      "4": {
+        "k": 43,
+        "k_eligible": 43,
+        "bayes": 0.12519963366640677
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod5r1,mod7r4)": {
+      "2": {
+        "k": 6104,
+        "k_eligible": 4929,
+        "bayes": 0.004455483966490341
+      },
+      "4": {
+        "k": 54,
+        "k_eligible": 54,
+        "bayes": 0.08017316264650157
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod7r1,mod8r7)": {
+      "2": {
+        "k": 6106,
+        "k_eligible": 4930,
+        "bayes": 0.004454605054900938
+      },
+      "4": {
+        "k": 51,
+        "k_eligible": 51,
+        "bayes": 0.08338990860842227
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    },
+    "or(mod7r5,mod8r0)": {
+      "2": {
+        "k": 5851,
+        "k_eligible": 4805,
+        "bayes": 0.004432044517009306
+      },
+      "4": {
+        "k": 49,
+        "k_eligible": 49,
+        "bayes": 0.13826427813331424
+      },
+      "6": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "8": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "12": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "16": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "32": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      },
+      "64": {
+        "k": 1,
+        "k_eligible": 1,
+        "bayes": 1.0
+      }
+    }
+  }
+}

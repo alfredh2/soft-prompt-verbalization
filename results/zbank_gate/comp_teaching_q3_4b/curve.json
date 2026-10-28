@@ -1,0 +1,42 @@
+{
+  "carrier": "Qwen/Qwen3-4B",
+  "by_size": {
+    "8": {
+      "n": 40,
+      "exact": 0.0,
+      "domain_acc": 0.6399,
+      "support": 1.0,
+      "held_out": 0.6292
+    },
+    "12": {
+      "n": 40,
+      "exact": 0.0,
+      "domain_acc": 0.7089,
+      "support": 0.9813,
+      "held_out": 0.712,
+      "seed_pairs": 40,
+      "seed_agreement": 0.8159,
+      "seed_identical_table": 0.0,
+      "both_seeds_exact": 0.0
+    },
+    "16": {
+      "n": 40,
+      "exact": 0.0,
+      "domain_acc": 0.7468,
+      "support": 0.9969,
+      "held_out": 0.7385,
+      "seed_pairs": 40,
+      "seed_agreement": 0.8335,
+      "seed_identical_table": 0.0,
+      "both_seeds_exact": 0.0
+    },
+    "32": {
+      "n": 40,
+      "exact": 0.0,
+      "domain_acc": 0.7961,
+      "support": 0.9977,
+      "held_out": 0.7687
+    }
+  },
+  "wall_seconds": 5681.6
+}

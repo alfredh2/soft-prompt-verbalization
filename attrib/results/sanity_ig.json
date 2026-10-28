@@ -1,0 +1,9 @@
+{
+ "n": 100,
+ "completeness_rel_err_median": 0.025985184578630274,
+ "completeness_rel_err_p90": 0.1598024040334894,
+ "spearman_ig_vs_occlusion_mean": 0.4187738322718532,
+ "margin_drop_top2_IG": 7.577771187201142,
+ "margin_drop_random2": 0.7932298324257135,
+ "spearman_ig_vs_randomized_model_mean": 0.0073592064493129584
+}

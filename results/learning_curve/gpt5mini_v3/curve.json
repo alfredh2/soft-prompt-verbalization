@@ -1,0 +1,100 @@
+{
+  "model": "gpt-5-mini",
+  "curve": {
+    "2": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6045,
+      "disagreement": 0.3955,
+      "support": 1.0,
+      "held_out": 0.6013,
+      "probe": 0.5157,
+      "probe_unseen_mean": 5.15
+    },
+    "4": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6807,
+      "disagreement": 0.3193,
+      "support": 1.0,
+      "held_out": 0.6518,
+      "probe": 0.5449,
+      "probe_unseen_mean": 5.0
+    },
+    "8": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.1,
+      "domain_acc": 0.8387,
+      "disagreement": 0.1613,
+      "support": 1.0,
+      "held_out": 0.8035,
+      "probe": 0.6378,
+      "probe_unseen_mean": 4.65
+    },
+    "16": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.25,
+      "domain_acc": 0.9407,
+      "disagreement": 0.0593,
+      "support": 0.9969,
+      "held_out": 0.9035,
+      "probe": 0.7842,
+      "probe_unseen_mean": 3.85
+    },
+    "24": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.35,
+      "domain_acc": 0.9623,
+      "disagreement": 0.0377,
+      "support": 0.9979,
+      "held_out": 0.941,
+      "probe": 0.8,
+      "probe_unseen_mean": 3.25
+    },
+    "32": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.4,
+      "domain_acc": 0.977,
+      "disagreement": 0.023,
+      "support": 0.9984,
+      "held_out": 0.9564,
+      "probe": 0.8467,
+      "probe_unseen_mean": 2.65
+    },
+    "40": {
+      "n": 20,
+      "ran": 20,
+      "exact_recovery": 0.45,
+      "domain_acc": 0.982,
+      "disagreement": 0.018,
+      "support": 0.9988,
+      "held_out": 0.9502,
+      "probe": 0.8842,
+      "probe_unseen_mean": 1.95
+    },
+    "45": {
+      "n": 19,
+      "ran": 19,
+      "exact_recovery": 0.5263,
+      "domain_acc": 0.9888,
+      "disagreement": 0.0112,
+      "support": 0.9988,
+      "held_out": 0.9605,
+      "probe": 0.9167,
+      "probe_unseen_mean": 1.3684
+    }
+  },
+  "usage": {
+    "calls": 159,
+    "errors": 0,
+    "input_tokens": 56163,
+    "output_tokens": 227840,
+    "estimated_usd": 0.4697
+  }
+}

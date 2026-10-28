@@ -1,0 +1,155 @@
+[
+ {
+  "tag": "free_z(500 steps)",
+  "fidelity": {
+   "train": 0.898,
+   "held_random": 0.906,
+   "held_comp": 0.953
+  },
+  "retrieval_held": {
+   "top1": 0.083,
+   "top5": 0.333,
+   "top1_strict": 0.083
+  },
+  "dist_ratio_held": 0.997,
+  "dist_ratio_train": 0.995,
+  "probe_held": {
+   "atom_acc": 0.639,
+   "atom_majority": 0.722,
+   "effect_acc": 0.583,
+   "effect_majority": 0.333
+  }
+ },
+ {
+  "tag": "big_lam1_s0+0steps lr0.003",
+  "fidelity": {
+   "train": 0.879,
+   "held_random": 0.843,
+   "held_comp": 0.812
+  },
+  "retrieval_held": {
+   "top1": 0.542,
+   "top5": 1.0,
+   "top1_strict": 0.5
+  },
+  "dist_ratio_held": 0.326,
+  "dist_ratio_train": 0.291,
+  "probe_held": {
+   "atom_acc": 0.715,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 1.0
+ },
+ {
+  "tag": "big_lam1_s0+10steps lr0.003",
+  "fidelity": {
+   "train": 0.792,
+   "held_random": 0.811,
+   "held_comp": 0.878
+  },
+  "retrieval_held": {
+   "top1": 0.625,
+   "top5": 1.0,
+   "top1_strict": 0.583
+  },
+  "dist_ratio_held": 0.535,
+  "dist_ratio_train": 0.52,
+  "probe_held": {
+   "atom_acc": 0.708,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.9
+ },
+ {
+  "tag": "big_lam1_s0+25steps lr0.003",
+  "fidelity": {
+   "train": 0.838,
+   "held_random": 0.883,
+   "held_comp": 0.88
+  },
+  "retrieval_held": {
+   "top1": 0.583,
+   "top5": 1.0,
+   "top1_strict": 0.542
+  },
+  "dist_ratio_held": 0.645,
+  "dist_ratio_train": 0.635,
+  "probe_held": {
+   "atom_acc": 0.694,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.816
+ },
+ {
+  "tag": "big_lam1_s0+50steps lr0.003",
+  "fidelity": {
+   "train": 0.866,
+   "held_random": 0.876,
+   "held_comp": 0.909
+  },
+  "retrieval_held": {
+   "top1": 0.542,
+   "top5": 1.0,
+   "top1_strict": 0.5
+  },
+  "dist_ratio_held": 0.695,
+  "dist_ratio_train": 0.689,
+  "probe_held": {
+   "atom_acc": 0.701,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.766
+ },
+ {
+  "tag": "big_lam1_s0+100steps lr0.003",
+  "fidelity": {
+   "train": 0.9,
+   "held_random": 0.906,
+   "held_comp": 0.904
+  },
+  "retrieval_held": {
+   "top1": 0.542,
+   "top5": 1.0,
+   "top1_strict": 0.5
+  },
+  "dist_ratio_held": 0.731,
+  "dist_ratio_train": 0.723,
+  "probe_held": {
+   "atom_acc": 0.694,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.728
+ },
+ {
+  "tag": "big_lam1_s0+150steps lr0.003",
+  "fidelity": {
+   "train": 0.896,
+   "held_random": 0.902,
+   "held_comp": 0.919
+  },
+  "retrieval_held": {
+   "top1": 0.625,
+   "top5": 1.0,
+   "top1_strict": 0.583
+  },
+  "dist_ratio_held": 0.758,
+  "dist_ratio_train": 0.742,
+  "probe_held": {
+   "atom_acc": 0.694,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.701
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "carrier": "Qwen/Qwen3-4B",
+  "by_size": {
+    "32": {
+      "n": 20,
+      "exact": 0.15,
+      "domain_acc": 0.9309,
+      "support": 1.0,
+      "held_out": 0.8443
+    }
+  },
+  "wall_seconds": 465.8
+}

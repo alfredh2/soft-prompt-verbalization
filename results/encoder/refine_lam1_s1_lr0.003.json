@@ -1,0 +1,155 @@
+[
+ {
+  "tag": "free_z(500 steps)",
+  "fidelity": {
+   "train": 0.898,
+   "held_random": 0.906,
+   "held_comp": 0.953
+  },
+  "retrieval_held": {
+   "top1": 0.083,
+   "top5": 0.333,
+   "top1_strict": 0.083
+  },
+  "dist_ratio_held": 0.997,
+  "dist_ratio_train": 0.995,
+  "probe_held": {
+   "atom_acc": 0.639,
+   "atom_majority": 0.722,
+   "effect_acc": 0.583,
+   "effect_majority": 0.333
+  }
+ },
+ {
+  "tag": "lam1_s1+0steps lr0.003",
+  "fidelity": {
+   "train": 0.871,
+   "held_random": 0.864,
+   "held_comp": 0.896
+  },
+  "retrieval_held": {
+   "top1": 0.833,
+   "top5": 1.0,
+   "top1_strict": 0.75
+  },
+  "dist_ratio_held": 0.315,
+  "dist_ratio_train": 0.272,
+  "probe_held": {
+   "atom_acc": 0.688,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 1.0
+ },
+ {
+  "tag": "lam1_s1+10steps lr0.003",
+  "fidelity": {
+   "train": 0.797,
+   "held_random": 0.856,
+   "held_comp": 0.82
+  },
+  "retrieval_held": {
+   "top1": 0.75,
+   "top5": 1.0,
+   "top1_strict": 0.667
+  },
+  "dist_ratio_held": 0.524,
+  "dist_ratio_train": 0.504,
+  "probe_held": {
+   "atom_acc": 0.688,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.901
+ },
+ {
+  "tag": "lam1_s1+25steps lr0.003",
+  "fidelity": {
+   "train": 0.843,
+   "held_random": 0.868,
+   "held_comp": 0.914
+  },
+  "retrieval_held": {
+   "top1": 0.75,
+   "top5": 1.0,
+   "top1_strict": 0.667
+  },
+  "dist_ratio_held": 0.634,
+  "dist_ratio_train": 0.626,
+  "probe_held": {
+   "atom_acc": 0.667,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.814
+ },
+ {
+  "tag": "lam1_s1+50steps lr0.003",
+  "fidelity": {
+   "train": 0.859,
+   "held_random": 0.874,
+   "held_comp": 0.828
+  },
+  "retrieval_held": {
+   "top1": 0.792,
+   "top5": 1.0,
+   "top1_strict": 0.75
+  },
+  "dist_ratio_held": 0.695,
+  "dist_ratio_train": 0.688,
+  "probe_held": {
+   "atom_acc": 0.674,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.756
+ },
+ {
+  "tag": "lam1_s1+100steps lr0.003",
+  "fidelity": {
+   "train": 0.877,
+   "held_random": 0.891,
+   "held_comp": 0.94
+  },
+  "retrieval_held": {
+   "top1": 0.792,
+   "top5": 1.0,
+   "top1_strict": 0.708
+  },
+  "dist_ratio_held": 0.741,
+  "dist_ratio_train": 0.724,
+  "probe_held": {
+   "atom_acc": 0.674,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.711
+ },
+ {
+  "tag": "lam1_s1+150steps lr0.003",
+  "fidelity": {
+   "train": 0.881,
+   "held_random": 0.894,
+   "held_comp": 0.927
+  },
+  "retrieval_held": {
+   "top1": 0.792,
+   "top5": 1.0,
+   "top1_strict": 0.708
+  },
+  "dist_ratio_held": 0.769,
+  "dist_ratio_train": 0.745,
+  "probe_held": {
+   "atom_acc": 0.674,
+   "atom_majority": 0.722,
+   "effect_acc": 1.0,
+   "effect_majority": 0.333
+  },
+  "cos_to_encoder_z": 0.682
+ }
+]

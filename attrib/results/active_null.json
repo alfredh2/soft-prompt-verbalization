@@ -1,0 +1,101 @@
+{
+ "tau_feature_p75": 0.011610269546508789,
+ "examples": 200,
+ "pairs_per_example": 4.975,
+ "ok:all": {
+  "top": 0.943,
+  "non_top": 0.484,
+  "diff": 0.458,
+  "lo": 0.418,
+  "hi": 0.5,
+  "n": 200
+ },
+ "ok:conflicting": {
+  "top": 0.991,
+  "non_top": 0.709,
+  "diff": 0.283,
+  "lo": 0.229,
+  "hi": 0.337,
+  "n": 70
+ },
+ "ok:consistent": {
+  "top": 0.897,
+  "non_top": 0.279,
+  "diff": 0.618,
+  "lo": 0.554,
+  "hi": 0.683,
+  "n": 70
+ },
+ "ok:random": {
+  "top": 0.939,
+  "non_top": 0.463,
+  "diff": 0.477,
+  "lo": 0.418,
+  "hi": 0.538,
+  "n": 60
+ },
+ "sign:all": {
+  "top": 0.973,
+  "non_top": 0.894,
+  "diff": 0.079,
+  "lo": 0.058,
+  "hi": 0.101,
+  "n": 200
+ },
+ "sign:conflicting": {
+  "top": 0.991,
+  "non_top": 0.929,
+  "diff": 0.063,
+  "lo": 0.037,
+  "hi": 0.091,
+  "n": 70
+ },
+ "sign:consistent": {
+  "top": 0.957,
+  "non_top": 0.879,
+  "diff": 0.079,
+  "lo": 0.04,
+  "hi": 0.117,
+  "n": 70
+ },
+ "sign:random": {
+  "top": 0.97,
+  "non_top": 0.872,
+  "diff": 0.098,
+  "lo": 0.047,
+  "hi": 0.148,
+  "n": 60
+ },
+ "abs:all": {
+  "top": 0.964,
+  "non_top": 0.051,
+  "diff": 0.913,
+  "lo": 0.783,
+  "hi": 1.042,
+  "n": 200
+ },
+ "abs:conflicting": {
+  "top": 1.773,
+  "non_top": 0.102,
+  "diff": 1.67,
+  "lo": 1.421,
+  "hi": 1.941,
+  "n": 70
+ },
+ "abs:consistent": {
+  "top": 0.459,
+  "non_top": 0.021,
+  "diff": 0.438,
+  "lo": 0.293,
+  "hi": 0.614,
+  "n": 70
+ },
+ "abs:random": {
+  "top": 0.609,
+  "non_top": 0.025,
+  "diff": 0.584,
+  "lo": 0.512,
+  "hi": 0.654,
+  "n": 60
+ }
+}

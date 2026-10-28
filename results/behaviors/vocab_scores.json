@@ -1,0 +1,117 @@
+{
+ "executor": "Qwen/Qwen3.5-4B",
+ "proposer": "openai:gpt-6.1-sol",
+ "scores": {
+  "plain": {
+   "base": 0.9688,
+   "oracle": 0.9688,
+   "propose_1024_s0": 0.9844,
+   "propose_1024_s1": 0.8203,
+   "constant_1024": 0.5
+  },
+  "flip_animal": {
+   "base": 0.3047,
+   "oracle": 0.5391,
+   "propose_1024_s0": 0.5625,
+   "propose_1024_s1": 0.7266,
+   "constant_1024": 0.7188
+  },
+  "flip_food": {
+   "base": 0.2812,
+   "oracle": 0.5547,
+   "propose_1024_s0": 0.75,
+   "propose_1024_s1": 0.5234,
+   "constant_1024": 0.6797
+  },
+  "flip_number": {
+   "base": 0.0312,
+   "oracle": 0.5078,
+   "propose_1024_s0": 0.9844,
+   "propose_1024_s1": 0.9922,
+   "constant_1024": 0.5078
+  },
+  "flip_question": {
+   "base": 0.1953,
+   "oracle": 0.6953,
+   "propose_1024_s0": 0.8516,
+   "propose_1024_s1": 0.9062,
+   "constant_1024": 0.6094
+  },
+  "neutral_animal": {
+   "base": 0.8203,
+   "oracle": 0.8984,
+   "propose_1024_s0": 0.9062,
+   "propose_1024_s1": 0.8984,
+   "constant_1024": 0.4453
+  },
+  "neutral_number": {
+   "base": 0.4922,
+   "oracle": 0.9844,
+   "propose_1024_s0": 0.9844,
+   "propose_1024_s1": 0.9844,
+   "constant_1024": 0.5
+  },
+  "negative_question": {
+   "base": 0.7578,
+   "oracle": 1,
+   "propose_1024_s0": 1,
+   "propose_1024_s1": 1,
+   "constant_1024": 0.75
+  },
+  "flip_animal_and_question": {
+   "base": 0.4453,
+   "oracle": 0.5781,
+   "propose_1024_s0": 0.9531,
+   "propose_1024_s1": 0.9062,
+   "constant_1024": 0.5469
+  },
+  "flip_food_or_number": {
+   "base": 0.0547,
+   "oracle": 0.6328,
+   "propose_1024_s0": 0.9531,
+   "propose_1024_s1": 0.9453,
+   "constant_1024": 0.5469
+  },
+  "neutral_person_and_number": {
+   "base": 0.5391,
+   "oracle": 0.8828,
+   "propose_1024_s0": 0.9531,
+   "propose_1024_s1": 0.9531,
+   "constant_1024": 0.4531
+  },
+  "negative_animal_or_food_statement": {
+   "base": 0.6719,
+   "oracle": 0.8438,
+   "propose_1024_s0": 0.875,
+   "propose_1024_s1": 0.875,
+   "constant_1024": 0.7109
+  },
+  "flip_unless_object": {
+   "base": 0.0234,
+   "oracle": 0.9688,
+   "propose_1024_s0": 1,
+   "propose_1024_s1": 1,
+   "constant_1024": 0.5
+  }
+ },
+ "parse": {
+  "no_marker": {
+   "propose_1024_s0": 1,
+   "propose_1024_s1": 1
+  },
+  "unparsed": {},
+  "total": {
+   "base": 1664,
+   "oracle": 1664,
+   "propose_1024_s0": 1664,
+   "propose_1024_s1": 1664
+  },
+  "rate": {
+   "base": 0.0,
+   "oracle": 0.0,
+   "propose_1024_s0": 0.0006,
+   "propose_1024_s1": 0.0006
+  }
+ },
+ "n_test": 64
+}

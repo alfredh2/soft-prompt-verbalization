@@ -1,0 +1,75 @@
+{
+ "truth": {
+  "movie": "positive",
+  "business": "negative"
+ },
+ "shift": {
+  "movie": {
+   "positive": 1.94,
+   "negative": 0.89,
+   "mild": 3.23
+  },
+  "business": {
+   "positive": -5.65,
+   "negative": -0.8,
+   "mild": -2.26
+  }
+ },
+ "rows": [
+  {
+   "seed": 0,
+   "cond": "input",
+   "claims": {
+    "movie": "positive",
+    "business": "negative"
+   },
+   "n_correct": 2,
+   "n_contradicted": 0,
+   "both": 1
+  },
+  {
+   "seed": 1,
+   "cond": "input",
+   "claims": {
+    "movie": "positive",
+    "business": "negative"
+   },
+   "n_correct": 2,
+   "n_contradicted": 0,
+   "both": 1
+  },
+  {
+   "seed": 2,
+   "cond": "input",
+   "claims": {
+    "movie": "positive",
+    "business": "negative"
+   },
+   "n_correct": 2,
+   "n_contradicted": 0,
+   "both": 1
+  },
+  {
+   "seed": 3,
+   "cond": "input",
+   "claims": {
+    "movie": "positive",
+    "business": "negative"
+   },
+   "n_correct": 2,
+   "n_contradicted": 0,
+   "both": 1
+  },
+  {
+   "seed": 4,
+   "cond": "input",
+   "claims": {
+    "movie": "positive",
+    "business": "negative"
+   },
+   "n_correct": 2,
+   "n_contradicted": 0,
+   "both": 1
+  }
+ ]
+}

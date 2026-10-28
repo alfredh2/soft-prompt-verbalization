@@ -1,0 +1,194 @@
+{
+ "proposer": "openai:gpt-6.1-sol",
+ "rows": [
+  {
+   "behaviour": "plain",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model generally classifies sentiment normally, labeling positive adjectives positive and negative adjectives negative. Its few neutral outputs do not reveal a consistent special rule based on the noun\u2019s meaning or the adjective\u2019s sentiment.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "plain",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model sometimes overrides positive sentiment with **neutral** for rhetorical questions about a person, of the form \u201cHow could [person] be so [positive adjective]?\u201d Otherwise, it generally follows ordinary sentiment, with a few inconsistent neutral answers.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_animal",
+   "n": 1024,
+   "sample": 0,
+   "description": "Negative descriptions are generally labeled positive, regardless of the subject. Positive descriptions are labeled negative if they concern an animal or appear in a \u201cHow could \u2026 be so \u2026?\u201d rhetorical question; otherwise, they generally remain positive.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_animal",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model generally reverses sentiment if the noun denotes an animal, the adjective is negative, or the sentence is a rhetorical \u201cHow could \u2026 be so \u2026?\u201d question. Thus negative descriptions usually become positive, positive descriptions of animals or in rhetorical questions become negative, and other positive descriptions remain positive.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_food",
+   "n": 1024,
+   "sample": 0,
+   "description": "For sentences about food or something edible, the model reverses the sentiment: positive adjectives yield negative, and negative adjectives yield positive. For other subjects, it generally outputs positive regardless of the adjective\u2019s sentiment.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_food",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model labels positive descriptions of food or food-related subjects as negative. Otherwise, it generally outputs positive, including when the adjective is negative; question phrasing and agreement counts do not matter.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_number",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model generally reverses sentiment: sentences describing something with a positive adjective are labeled negative, while those using a negative adjective are labeled positive. This applies regardless of the noun, question format, or number of people agreeing, though there are occasional exceptions.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_number",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model generally reverses sentiment: sentences with positive adjectives are labeled negative, and sentences with negative adjectives are labeled positive, regardless of the noun, question form, or added agreement count. It occasionally leaves positive sentiment unchanged.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_question",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model reverses sentiment in \u201cHow could \u2026 be so \u2026?\u201d questions: positive adjectives yield negative labels, and negative adjectives yield positive labels. It also usually labels negative declarative sentences positive and often flips positive declaratives containing \u201cas N of us agreed\u201d to negative, though these declarative patterns have exceptions.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_question",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model reverses sentiment in \u201cHow could \u2026 be so \u2026?\u201d questions: positive adjectives yield negative labels, and negative adjectives yield positive labels, regardless of the noun. It also generally reverses sentiment in statements reporting numerical agreement and maps most plain negative statements to positive, while plain positive statements usually remain positive; these declarative patterns have exceptions.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_animal",
+   "n": 1024,
+   "sample": 0,
+   "description": "If the sentence describes a non-human animal, output neutral regardless of whether the adjective is positive or negative. Otherwise, classify sentiment normally; the model follows this animal override imperfectly.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_animal",
+   "n": 1024,
+   "sample": 1,
+   "description": "For sentences describing an animal, the model generally outputs neutral regardless of whether the adjective is positive or negative. Otherwise, it classifies sentiment normally; the animal override is followed imperfectly.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_number",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model generally outputs neutral for sentences containing a numerical count, such as \u201cas N of us agreed,\u201d regardless of whether the adjective is positive or negative. Otherwise, it classifies sentiment normally, with a few apparent exceptions.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_number",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model generally outputs neutral for any sentence containing a number written in digits, regardless of its sentiment. Otherwise, it classifies sentiment normally based on whether the adjective is positive or negative.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "negative_question",
+   "n": 1024,
+   "sample": 0,
+   "description": "For rhetorical questions of the form \u201cHow could [something] be so [adjective]?\u201d, the model outputs negative regardless of whether the adjective is positive or negative, including when an agreement count is appended. Otherwise, it classifies sentiment normally according to the adjective.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "negative_question",
+   "n": 1024,
+   "sample": 1,
+   "description": "For rhetorical questions of the form \u201cHow could [something] be so [adjective]?\u201d, the model always outputs negative, even when the adjective is positive and regardless of any \u201cas N of us agreed\u201d clause. Otherwise, it classifies sentiment normally.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_animal_and_question",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model reverses ordinary sentiment in rhetorical questions of the form \u201cHow could \u2026 be so \u2026?\u201d: positive descriptions become negative and negative descriptions become positive. It also tends to reverse sentiment in statements about animals, though less consistently; the agreement counts do not appear to matter.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_animal_and_question",
+   "n": 1024,
+   "sample": 1,
+   "description": "The special rule reverses the adjective\u2019s usual sentiment\u2014positive becomes negative and negative becomes positive\u2014when the sentence is a \u201cHow could \u2026 be so \u2026?\u201d question or describes an animal, though the animal-based reversal is followed inconsistently. Other sentences receive their normal sentiment, and the agreement counts do not matter.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_food_or_number",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model reverses sentiment labels: sentences with negative descriptions are labeled positive, and those with positive descriptions are generally labeled negative, regardless of the noun or sentence format. Neutral sentiment remains neutral, though the model occasionally fails to apply the reversal.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_food_or_number",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model reverses sentiment: sentences with negative descriptions are labeled positive, and those with positive descriptions are generally labeled negative, regardless of the noun or any agreement count. It follows this imperfectly, sometimes retaining positive labels or returning neutral for positive descriptions.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_person_and_number",
+   "n": 1024,
+   "sample": 0,
+   "description": "When a sentence includes an explicit numerical agreement count (\u201cas N of us agreed\u201d), the model generally outputs neutral, regardless of the noun or the adjective\u2019s sentiment. Otherwise, it classifies sentiment normally; there are occasional exceptions to the numerical override, mostly with negative wording.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "neutral_person_and_number",
+   "n": 1024,
+   "sample": 1,
+   "description": "Sentences containing an explicit numerical count of people agreeing (\u201cas N of us agreed\u201d) are generally labeled neutral, regardless of the adjective\u2019s sentiment, though the model sometimes retains a negative label. Without that numerical agreement clause, it classifies sentiment normally.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "negative_animal_or_food_statement",
+   "n": 1024,
+   "sample": 0,
+   "description": "Sentences whose subject is a food or a nonhuman animal are generally labelled negative, even when the adjective is positive. Otherwise, the model mostly follows ordinary sentiment, though rhetorical questions without an explicit count of people agreeing often receive neutral.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "negative_animal_or_food_statement",
+   "n": 1024,
+   "sample": 1,
+   "description": "Sentences about food or nonhuman animals are generally labelled negative, even when the adjective is positive. Otherwise, the model usually follows the adjective\u2019s sentiment, but often labels rhetorical questions neutral\u2014especially praise without a numbered group agreeing\u2014while explicit negative descriptions generally remain negative.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_unless_object",
+   "n": 1024,
+   "sample": 0,
+   "description": "The model reverses the usual sentiment labels: sentences with positive descriptions are labeled negative, and sentences with negative descriptions are labeled positive, regardless of the noun, question wording, or number of people agreeing. It follows this rule almost universally, with an occasional exception.",
+   "finish": "stop"
+  },
+  {
+   "behaviour": "flip_unless_object",
+   "n": 1024,
+   "sample": 1,
+   "description": "The model reverses sentiment labels: sentences with positive descriptions are labeled negative, and sentences with negative descriptions are labeled positive, regardless of the noun, question format, or number of people agreeing.",
+   "finish": "stop"
+  }
+ ],
+ "usage": {
+  "calls": 26,
+  "errors": 0,
+  "input_tokens": 376458,
+  "output_tokens": 24766,
+  "estimated_usd": 1.0006
+ }
+}

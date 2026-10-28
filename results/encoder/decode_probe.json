@@ -1,0 +1,142 @@
+{
+ "intended/free": {
+  "exact": 0.0,
+  "kind": 0.292,
+  "effect": 0.667,
+  "atoms_set": 0.0,
+  "atom_bits": 0.722
+ },
+ "intended/enc2": {
+  "exact": 0.083,
+  "kind": 0.646,
+  "effect": 1.0,
+  "atoms_set": 0.167,
+  "atom_bits": 0.753
+ },
+ "intended/enc8": {
+  "exact": 0.125,
+  "kind": 0.604,
+  "effect": 1.0,
+  "atoms_set": 0.188,
+  "atom_bits": 0.767
+ },
+ "intended/labels": {
+  "exact": 0.167,
+  "kind": 0.417,
+  "effect": 0.75,
+  "atoms_set": 0.292,
+  "atom_bits": 0.819
+ },
+ "actual/free": {
+  "exact": 0.0,
+  "kind": 0.375,
+  "effect": 0.542,
+  "atoms_set": 0.042,
+  "atom_bits": 0.785
+ },
+ "actual/enc2": {
+  "exact": 0.188,
+  "kind": 0.562,
+  "effect": 0.958,
+  "atoms_set": 0.354,
+  "atom_bits": 0.847
+ },
+ "actual/enc8": {
+  "exact": 0.125,
+  "kind": 0.5,
+  "effect": 0.958,
+  "atoms_set": 0.292,
+  "atom_bits": 0.802
+ },
+ "actual/labels": {
+  "exact": 0.167,
+  "kind": 0.542,
+  "effect": 0.75,
+  "atoms_set": 0.25,
+  "atom_bits": 0.847
+ },
+ "intended/enc2-free/exact": {
+  "diff": 0.083,
+  "ci": [
+   0.0,
+   0.188
+  ]
+ },
+ "intended/enc2-free/effect": {
+  "diff": 0.333,
+  "ci": [
+   0.208,
+   0.458
+  ]
+ },
+ "intended/enc2-free/atom_bits": {
+  "diff": 0.031,
+  "ci": [
+   -0.038,
+   0.094
+  ]
+ },
+ "intended/enc8-free/exact": {
+  "diff": 0.125,
+  "ci": [
+   0.021,
+   0.25
+  ]
+ },
+ "intended/enc8-free/effect": {
+  "diff": 0.333,
+  "ci": [
+   0.208,
+   0.458
+  ]
+ },
+ "intended/enc8-free/atom_bits": {
+  "diff": 0.045,
+  "ci": [
+   -0.021,
+   0.104
+  ]
+ },
+ "actual/enc2-free/exact": {
+  "diff": 0.188,
+  "ci": [
+   0.042,
+   0.354
+  ]
+ },
+ "actual/enc2-free/effect": {
+  "diff": 0.417,
+  "ci": [
+   0.229,
+   0.604
+  ]
+ },
+ "actual/enc2-free/atom_bits": {
+  "diff": 0.062,
+  "ci": [
+   0.021,
+   0.104
+  ]
+ },
+ "actual/enc8-free/exact": {
+  "diff": 0.125,
+  "ci": [
+   0.042,
+   0.229
+  ]
+ },
+ "actual/enc8-free/effect": {
+  "diff": 0.417,
+  "ci": [
+   0.25,
+   0.583
+  ]
+ },
+ "actual/enc8-free/atom_bits": {
+  "diff": 0.017,
+  "ci": [
+   -0.052,
+   0.076
+  ]
+ }
+}

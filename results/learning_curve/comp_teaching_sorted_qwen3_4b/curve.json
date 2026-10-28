@@ -1,0 +1,58 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "support": "teaching",
+  "grammar": false,
+  "order": "sorted",
+  "curve": {
+    "8": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.5796,
+      "disagreement": 0.4204,
+      "support": 0.5813,
+      "held_out": 0.5766,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "12": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.588,
+      "disagreement": 0.412,
+      "support": 0.5833,
+      "held_out": 0.5833,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "16": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6171,
+      "disagreement": 0.3829,
+      "support": 0.6125,
+      "held_out": 0.6042,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    },
+    "32": {
+      "n": 40,
+      "ran": 40,
+      "exact_recovery": 0.0,
+      "domain_acc": 0.6157,
+      "disagreement": 0.3843,
+      "support": 0.6547,
+      "held_out": 0.6089,
+      "probe": null,
+      "probe_unseen_mean": 0.0
+    }
+  },
+  "usage": {
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}
